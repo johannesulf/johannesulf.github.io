@@ -1,0 +1,179 @@
+\documentclass[11pt]{resume} %Sets the default text size to 11pt and class to article.
+%------------------------Dimensions--------------------------------------------
+\topmargin=0.0in %length of margin at the top of the page (1 inch added by default)
+\oddsidemargin=0.0in %length of margin on sides for odd pages
+\evensidemargin=0in %length of margin on sides for even pages
+\textwidth=6.5in %How wide you want your text to be
+\marginparwidth=0.5in
+\headheight=0pt %1in margins at top and bottom (1 inch is added to this value by default)
+\headsep=0pt %Increase to increase white space in between headers and the top of the page
+\textheight=9.0in %How tall the text body is allowed to be on each page
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{changepage}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\definecolor{blue}{cmyk}{1.0, 0.35, 0.0, 0.4}
+\parindent 0pt
+
+\usepackage[style=numeric, backend=biber, sorting=none, maxbibnames=99, doi=false]{biblatex}
+\addbibresource{bibliography.bib}
+
+\newcommand{\lt}{\ensuremath <}
+\newcommand{\gt}{\ensuremath >}
+
+\def\aap{{A\&A}}
+\def\mnras{{MNRAS}}
+\def\apj{{ApJ}}
+\def\apjl{{ApJL}}
+\def\apjs{{ApJS}}
+
+\AtDataInput{%
+  \csnumgdef{entrycount:\therefsection}{%
+    \csuse{entrycount:\therefsection}+1}}
+
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}
+\newrobustcmd*{\mkbibdesc}[1]{%
+  \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
+
+\defbibenvironment{bibliography}
+{\list
+  {\printtext[labelnumberwidth]{%
+      \printfield{labelprefix}%
+      \printfield{labelnumber}}}
+  {\setlength{\labelwidth}{\labelnumberwidth}%
+    \setlength{\leftmargin}{\labelwidth}%
+    \setlength{\labelsep}{\biblabelsep}%
+    \addtolength{\leftmargin}{\labelsep}%
+    \addtolength{\leftmargin}{\leftskip}%
+    \setlength{\itemsep}{\bibitemsep}%
+    \setlength{\parsep}{\bibparsep}}%
+  \renewcommand*{\makelabel}[1]{\hss##1}}
+{\endlist}
+{\item}
+
+\begin{document}
+
+\centerline{\color{blue} \LARGE \bf Johannes Ulf Lange}
+\centerline{Yale University, Astronomy Department}
+\centerline{52 Hillhouse Avenue, New Haven, CT 06511}
+\centerline{johannesulf.lange@yale.edu}
+\bigskip
+
+\begin{rSection}{Research Interests}
+  \begin{adjustwidth}{0.5cm}{}
+    Galaxy-Halo Connection, Galaxy Formation Theory, Cosmology, Large-Scale Structure, Statistical Methods and Machine Learning
+  \end{adjustwidth}
+\end{rSection}
+
+
+\begin{rSection}{Education}
+  \begin{adjustwidth}{0.5cm}{}
+    \begin{rSubsection}{Yale University}{08/2014 -- present}{M.Sc., M.Phil, Ph.D. Candidate in Astronomy}{}\end{rSubsection}
+
+    \begin{rSubsection}{Ruprecht-Karls-Universität Heidelberg}{09/2012 -- 08/2014}{Master of Science in Physics}{}\end{rSubsection}
+
+    \begin{rSubsection}{Freie Universität Berlin}{10/2009 -- 08/2012}{Bachelor of Science in Physics}{}\end{rSubsection}
+  \end{adjustwidth}
+\end{rSection}
+
+\begin{rSection}{Research}
+  \begin{adjustwidth}{0.5cm}{}
+    \begin{rSubsection}{Yale University}{08/2014 -- present}{Graduate Student Researcher\\The Galaxy-Halo Connection\\Advisor: Frank van den Bosch}{}\end{rSubsection}
+    \begin{rSubsection}{Shanghai Jiao Tong University}{05/2018 -- 07/2018}{Visiting Scholar\\The non-linear Galaxy Clustering and Lensing in BOSS\\Advisor: Xiaohu Yang}{}\end{rSubsection}
+    \begin{rSubsection}{Kavli Institute for Theoretical Physics}{01/2017 -- 07/2017}{KITP Graduate Fellow\\The Galaxy-Halo Connection}{}\end{rSubsection}
+    \begin{rSubsection}{The Chinese University of Hong Kong}{08/2013 -- 07/2014}{Postgraduate Research Exchange Program\\Dark Matter Annihilation and the Cosmic Gamma-Ray Background\\Advisor: Ming Chung Chu}{}\end{rSubsection}
+    \begin{rSubsection}{German Electron Synchrotron (DESY)}{04/2012 -- 07/2012}{Bachelor Thesis\\The average GeV-band Emission from Gamma-Ray Bursts\\Advisor: Martin Pohl}{}\end{rSubsection}
+    \begin{rSubsection}{University of California, Santa Barbara}{09/2011 -- 03/2012}{Undergraduate Research\\Search for a Higgs Boson in the Decay Channel $H \rightarrow Z\gamma$\\Advisor: Claudio Campagnari}{}\end{rSubsection}
+  \end{adjustwidth}
+\end{rSection}
+
+\begin{rSection}{Publications}
+  \setlength{\leftskip}{0.5cm}
+  \nocite{10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
+  \printbibliography[heading=none]
+\end{rSection}
+
+
+\begin{rSection}{Talks}
+  \begin{adjustwidth}{0.5cm}{}
+    \textbf{BCCP Seminar} (invited)\hfill 09/2018\\
+    University of California, Berkeley
+
+    \textbf{CosmoClub}\hfill 09/2018\\
+    University of California, Santa Cruz
+
+    \textbf{SUGAR-RUSH Conference}\hfill 06/2018\\
+    Shanghai Jiao Tong University
+
+    \textbf{KIPAC Tea Talk}\hfill 03/2018\\
+    SLAC National Accelerator Laboratory
+
+    \textbf{Astronomy Seminar}\hfill 03/2018\\
+    University of California, Riverside
+
+    \textbf{Galaxy Coffee}\hfill 01/2018\\
+    Max Planck Institute for Astronomy
+
+    \textbf{The Galaxy-Halo Connection Across Cosmic Time} (invited)\hfill 07/2017\\
+    Kavli Institute for Theoretical Physics
+
+    \textbf{Quantifying and Understanding the Galaxy-Halo Connection}\hfill 05/2017\\
+    Kavli Institute for Theoretical Physics
+
+    \textbf{Astroparticle Physics Seminar}\hfill 07/2014\\
+    German Electron Synchrotron (DESY)
+
+    \textbf{Conference of the Physical Society of Hong Kong}\hfill 06/2014\\
+    Hong Kong Baptist University
+
+    \textbf{IAS Workshop on New Perspectives in Cosmology}\hfill 05/2014\\
+    Hong Kong University of Science and Technology
+  \end{adjustwidth}
+\end{rSection}
+
+
+\begin{rSection}{Teaching}
+  \begin{itemize}[leftmargin=1.0cm, topsep=0pt,itemsep=0pt,partopsep=0pt, parsep=0pt]
+    \item Astrostatistics and Data Mining, Lab Leader, Yale University, Spring 2018
+    \item Introduction to Astronomical Observing, Lab TA, Yale University, Fall 2017
+    \item Astrostatistics and Data Mining, Lab Leader, Yale University, Spring 2016
+    \item Introduction to Cosmology, Section Leader, Yale University, Fall 2015
+    \item Gravity, Astrophysics, and Cosmology, Grader, Yale University, Spring 2015
+    \item Introduction to Astronomical Observing, Lab TA, Yale University, Fall 2014
+  \end{itemize}
+\end{rSection}
+
+\begin{rSection}{Outreach}
+  \begin{itemize}[leftmargin=1.0cm, topsep=0pt,itemsep=0pt,partopsep=0pt, parsep=0pt]
+    \item Talk at Leitner Family Observatory \& Planetarium, New Haven, CT, February 2018
+    \item Talk at Open Labs Science Cafe Talk, Yale University, New Haven, CT, October 2017
+    \item Member of Open Labs, Yale University, New Haven, CT, since 2016
+    \item Tutor at New Haven Reads, New Haven, CT, 2015 - 2018
+    \item Member of UCSB Physics Circus, UC Santa Barbara, Santa Barbara, CA, 2012
+  \end{itemize}
+\end{rSection}
+
+\begin{rSection}{Skills}
+  \begin{itemize}[leftmargin=1.0cm, topsep=0pt,itemsep=0pt,partopsep=0pt, parsep=0pt]
+    \item Programming Languages – C/C++, Python, Cython, Java
+    \item Scientific Applications – NumPy, SciPy, matplotlib, LaTeX, git
+    \item Languages – German (native), English (fluent), Chinese (basic)
+  \end{itemize}
+\end{rSection}
+
+\begin{rSection}{Honors and Awards}
+  \begin{itemize}[leftmargin=1.0cm, topsep=0pt,itemsep=0pt,partopsep=0pt, parsep=0pt]
+    \item KITP Graduate Fellowship Program
+    \item Henry A. Smith Fellowship, Yale University
+    \item DAAD (German Academic Exchange Service) Scholarship
+    \item Deutschlandstipendium National Scholarship Program
+    \item Ernst Reuter Scholarship, Free University of Berlin
+    \item Dean's List, University of California, Santa Barbara
+  \end{itemize}
+\end{rSection}
+
+\end{document}
