@@ -22,34 +22,16 @@ More generally, I have a broad interest in many areas of astrophysical research.
 
 # Publications
 
-* __Lange, J.U.__  et al., 2018, "Maturing Satellite Kinematics into a
-Competitive Probe of the Galaxy-Halo Connection", submitted to MNRAS
-* Campbell, D. et al., including __Lange, J. U.__, 2018, "The Galaxy 
-Clustering Crisis in Abundance Matching", Monthly Notices of the Royal
-Astronomical Society
-* __Lange, J.U.__  et al., 2018, "Brightest galaxies as halo centre
-tracers in SDSS DR7", Monthly Notices of the Royal Astronomical Society
-* Villareal, A. S. et al., including __Lange, J. U.__, 2017, "The
-Immitigable Nature of Assembly Bias: The Impact of Halo Definition on
-Assembly Bias", Monthly Notices of the Royal Astronomical Society
-* Zentner, A.R., Hearin, A., van den Bosch, F.C., __Lange, J.U.__ and
-Villarreal, A., 2016, "Constraints on Assembly Bias from Galaxy Clustering",
-arXiv:1606.07817
-* Nelson, E. J. et al., including __Lange, J. U__., 2016, "Where Stars
-Form: Inside-out Growth and Coherent Star Formation from HST Hα Maps of 3200
-Galaxies across the Main Sequence at 0.7 &lt; z &lt; 1.5", The Astrophysical
-Journal
-* Momcheva, I. et al., including __Lange, J. U.__, 2016, "The 3D-HST
-Survey: Hubble Space Telescope WFC3/G141 Grism Spectra, Redshifts, and
-Emission Line Measurements for ∼ 100,000 Galaxies", The Astrophysical
-Journal Supplement Series
-* __Lange, J. U.__ et al., 2016, "Evidence for Non-stellar Rest-frame
-Near-IR Emission Associated with Increased Star Formation in Galaxies at z
-∼ 1", The Astrophysical Journal Letters
-* __Lange, J. U.__ and Chu, M.-C., 2014, "Can galactic dark matter
-substructure contribute to the cosmic gamma-ray anisotropy?", Monthly
-Notices of the Royal Astronomical Society
-* __Lange, J.__ and Pohl, M., 2013, "The average GeV-band Emission from
-Gamma-Ray Bursts", Astronomy & Astrophysics
+* __Lange, J.U.__  et al., 2018, "Updated Results on the Galaxy-Halo Connection from Satellite Kinematics in SDSS", submitted to MNRAS
+* __Lange, J.U.__  et al., 2018, "Maturing Satellite Kinematics into a Competitive Probe of the Galaxy-Halo Connection", submitted to MNRAS
+* Campbell, D. et al., including __Lange, J. U.__, 2018, "The Galaxy Clustering Crisis in Abundance Matching", MNRAS
+* __Lange, J.U.__  et al., 2018, "Brightest galaxies as halo centre tracers in SDSS DR7", MNRAS
+* Villareal, A. S. et al., including __Lange, J. U.__, 2017, "The Immitigable Nature of Assembly Bias: The Impact of Halo Definition on Assembly Bias", MNRAS
+* Zentner, A.R., Hearin, A., van den Bosch, F.C., __Lange, J.U.__ and Villarreal, A., 2016, "Constraints on Assembly Bias from Galaxy Clustering", arXiv:1606.07817
+* Nelson, E. J. et al., including __Lange, J. U__., 2016, "Where Stars Form: Inside-out Growth and Coherent Star Formation from HST Hα Maps of 3200 Galaxies across the Main Sequence at 0.7 &lt; z &lt; 1.5", ApJ
+* Momcheva, I. et al., including __Lange, J. U.__, 2016, "The 3D-HST Survey: Hubble Space Telescope WFC3/G141 Grism Spectra, Redshifts, and Emission Line Measurements for ∼ 100,000 Galaxies", ApJS
+* __Lange, J. U.__ et al., 2016, "Evidence for Non-stellar Rest-frame Near-IR Emission Associated with Increased Star Formation in Galaxies at z ∼ 1", ApJL
+* __Lange, J. U.__ and Chu, M.-C., 2014, "Can galactic dark matter substructure contribute to the cosmic gamma-ray anisotropy?", MNRAS
+* __Lange, J.__ and Pohl, M., 2013, "The average GeV-band Emission from Gamma-Ray Bursts", A&A
 
-You can also find a list of my publications on  [ORDiD](http://orcid.org/0000-0002-2450-1366) and [ADS](https://ui.adsabs.harvard.edu/#search/q=(orcid%3A0000-0002-2450-1366%20-author%3A%22%5EAbbott%22)%20OR%20(author%3A(%22%5EZentner%2C%20Andrew%22%20AND%20%22Lange%2C%20Johannes%22))%20OR%20(author%3A(%22Chu%2C%20Ming-Chung%22%20AND%20%22%5ELange%2C%20Johannes%20Ulf%22))%20OR%20((orcid%3A0000-0002-2450-1366%20-author%3A%22%5EAbbott%22)%20OR%20(author%3A(%22%5EZentner%2C%20Andrew%22%20AND%20%22Lange%2C%20Johannes%22))%20OR%20(author%3A(%22Pohl%2C%20Martin%22%20AND%20%22%5ELange%2C%20Johannes%22)))&sort=date%20desc%2C%20bibcode%20desc&p_=0).
+You can also find a list of my publications on  [ORDiD](http://orcid.org/0000-0002-2450-1366) and [ADS](https://ui.adsabs.harvard.edu/#/public-libraries/NYc37mmySA2HdUg5pOzlrA).
