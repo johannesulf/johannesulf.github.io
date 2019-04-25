@@ -11,7 +11,9 @@ header:
   overlay_filter: 0.2
 ---
 
-# Activities
+I believe it is vital to make research accessible to the general public. I give talks about dark matter, dark energy and cosmology at local primary schools, Yale Open Labs science cafes, the Institute for Learning in Retirement, Astronomy on Tab events and the Leitner Family Observatory.
+
+# Memberships
 
 * Open Labs Yale, since Fall 2016
 * New Haven Reads, Fall 2015 - Spring 2018

@@ -20,6 +20,8 @@ More generally, I have a broad interest in many areas of astrophysical research.
 
 # Publications
 
+* van den Bosch, F.C., __Lange, J.U.__ and Zentner, A.R., 2019, "BASILISK: Bayesian Hierarchical Inference of the Galaxy-Halo Connection using Satellite Kinematics--I. Method and Validation", submitted to MNRAS
+* __Lange, J.U.__  et al., 2019, "New perspectives on the BOSS small-scale lensing discrepancy for the Planck ΛCDM Cosmology", submitted to MNRAS
 * Wang, K. et al., including __Lange, J. U__., 2019, "How to Optimally Constrain Galaxy Assembly Bias: Supplement Projected Correlation Functions with Count-in-cells Statistics ", submitted to MNRAS
 * __Lange, J.U.__  et al., 2019, "Maturing satellite kinematics into a competitive probe of the galaxy-halo connection", MNRAS
 * Zentner, A.R., Hearin, A., van den Bosch, F.C., __Lange, J.U.__ and Villarreal, A., 2019, "Constraints on Assembly Bias from Galaxy Clustering", MNRAS
