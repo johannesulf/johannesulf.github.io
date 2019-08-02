@@ -11,7 +11,7 @@ header:
   overlay_filter: 0.2
 ---
 
-I believe it is vital to make research accessible to the general public. I give talks about dark matter, dark energy and cosmology at local primary schools, Yale Open Labs science cafes, the Institute for Learning in Retirement, Astronomy on Tab events and the Leitner Family Observatory.
+I believe it is vital to make research accessible to the general public. I gave talks about dark matter, dark energy and cosmology at local primary schools, Yale Open Labs science cafes, the Institute for Learning in Retirement, Astronomy on Tab events and the Leitner Family Observatory.
 
 # Memberships
 
@@ -21,6 +21,8 @@ I believe it is vital to make research accessible to the general public. I give 
 
 # Videos
 
-Below, you can find an outreach talk I gave at the Open Labs Science Cafe.
+Below, you can find videos of outreach talks I gave at the Open Labs Science Cafe.
 
-<center> <iframe width="560" height="315" src="https://www.youtube.com/embed/qiERhu6NDgs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  </center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/qiERhu6NDgs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="border: 3px solid #EEE"></iframe></center>
+<br/>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/fNtGaepm4wE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="border: 3px solid #EEE"></iframe></center>

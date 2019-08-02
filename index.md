@@ -9,7 +9,7 @@ header:
 
 # About Me
 
-I'm an Astronomy Ph.D. student at [Yale University](http://astronomy.yale.edu/) in New Haven, Connecticut. I work with Professor [Frank van den Bosch](http://campuspress.yale.edu/vdbosch/) on empirically modelling the galaxy-halo connection in large-scale structure surveys. In particular, I am interested in the kinematics of satellite galaxies, galaxy clustering, galaxy-galaxy lensing and galaxy assembly bias. Additionally, I'm an active contributor to the open-source [halotools](https://github.com/astropy/halotools) project. The following broad questions drive my research.
+I obtained my Astronomy Ph.D. at [Yale University](http://astronomy.yale.edu/) in New Haven, Connecticut. I worked with Professor [Frank van den Bosch](http://campuspress.yale.edu/vdbosch/) on empirically modelling the galaxy-halo connection in large-scale structure surveys. In particular, I am interested in the kinematics of satellite galaxies, galaxy clustering, galaxy-galaxy lensing and galaxy assembly bias. Additionally, I'm an active contributor to the open-source [halotools](https://github.com/astropy/halotools) project. The following broad questions drive my research.
 
 * Can the Lamda-CDM cosmological model describe both the results from galaxy surveys as well as observations of the cosmic microwave background?
 * Are the dynamics of galaxies consistent with predictions from general relativity?
