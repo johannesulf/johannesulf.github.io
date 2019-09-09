@@ -112,7 +112,7 @@ author:
       url: mailto:johannesulf.lange@yale.edu
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "http://www.astro.yale.edu/julange/"
+      url: "https://johannesulf.github.io/"
     - label: "Publications"
       icon: "fas fa-fw fa-book"
       url: "https://ui.adsabs.harvard.edu/#/public-libraries/NYc37mmySA2HdUg5pOzlrA"
