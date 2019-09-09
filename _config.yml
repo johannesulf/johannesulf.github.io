@@ -21,7 +21,7 @@ title_separator          : "-"
 name                     : "Johannes Lange"
 description              : #"An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/julange" # the subpath of your site, e.g. "/blog"
+#baseurl                  : "/julange" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -104,7 +104,7 @@ author:
   name             : "Johannes U. Lange"
   avatar           : "/assets/images/avatar.png"
   bio              : "I'm an Astronomer working on Galaxies, Gravity and Cosmology."
-  location         : "Yale University<br/>Department of Astronomy<br/>52 Hillhouse Avenue<br/>New Haven, CT 06511"
+  location         : "UC Santa Cruz<br/>Astronomy & Astrophysics<br/>Department<br/>1156 High Street<br/>Santa Cruz, CA 95064"
   email            :
   links:
     - label: "Email"
