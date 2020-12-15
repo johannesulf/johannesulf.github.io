@@ -7,7 +7,7 @@ toc: true
 toc_label: Content
 toc_sticky: true
 header:
-  overlay_image: /assets/images/Yale_2.jpg
+  overlay_image: /_images/Yale_2.jpg
   overlay_filter: 0.5
 toc: true
 ---

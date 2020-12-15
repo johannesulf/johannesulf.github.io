@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 title: "Welcome to my Homepage!"
 header:
-  overlay_image: /assets/images/PIA12348.jpg
+  overlay_image: /_images/PIA12348.jpg
   caption: "Image Credit: NASA"
 ---
 

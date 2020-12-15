@@ -7,7 +7,7 @@ toc: True
 toc_label: Content
 toc_sticky: true
 header:
-  overlay_image: /assets/images/Open_Labs.jpg
+  overlay_image: /_images/Open_Labs.jpg
   overlay_filter: 0.2
 ---
 
