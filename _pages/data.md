@@ -8,7 +8,6 @@ toc_label: Content
 toc_sticky: true
 header:
   overlay_image: /_images/corner.png
-  caption: "Image Credit: Mansfield & Diemer"
   overlay_filter: 0.3
 ---
 
