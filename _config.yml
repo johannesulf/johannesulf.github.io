@@ -40,7 +40,7 @@ include:
   - .htaccess
   - _pages
   - _images
-  - _cv
+  - download
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
