@@ -20,7 +20,8 @@ More generally, I have a broad interest in many areas of astrophysical research.
 
 # Publications
 
-* __Lange, J.U.__  et al., 2020, "On the halo-mass and radial scale dependence of the lensing is low effect", submitted to MNRAS ([arXiv](https://arxiv.org/abs/2011.02377))
+* __Lange, J.U.__  et al., 2021, "Five-percent measurements of the growth rate from simulation-based modelling of redshift-space clustering in BOSS LOWZ", submitted to MNRAS
+* __Lange, J.U.__  et al., 2021, "On the halo-mass and radial scale dependence of the lensing is low effect", MNRAS
 *  Wang, K; Mao, Y.-Y.; Zentner, A.R.; __Lange, J.U.__; van den Bosch, F.C.; Wechsler, R.H. "Concentrations of dark haloes emerge from their merger histories", MNRAS
 * __Lange, J.U.__  et al., 2019, "Cosmological Evidence Modelling: a new simulation-based approach to constrain cosmology on non-linear scales", MNRAS
 * van den Bosch, F.C., __Lange, J.U.__ and Zentner, A.R., 2019, "BASILISK: Bayesian Hierarchical Inference of the Galaxy-Halo Connection using Satellite Kinematics--I. Method and validation", MNRAS
