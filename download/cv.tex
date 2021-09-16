@@ -1,4 +1,4 @@
-\documentclass{resume}
+\documentclass[12pt,letterpaper]{article}
 
 \topmargin=0.0in
 \oddsidemargin=0.0in
@@ -8,17 +8,19 @@
 \headheight=0pt
 \headsep=0pt
 \textheight=9.0in
+\pagestyle{empty}
 
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{changepage}
 \usepackage{color}
 \usepackage{enumitem}
 \definecolor{blue}{cmyk}{1.0, 0.35, 0.0, 0.4}
 \parindent 0pt
+\usepackage[parfill]{parskip}
 
-\usepackage[style=numeric, backend=biber, sorting=none, maxbibnames=100, doi=false, giveninits=true, eprint=false]{biblatex}
+\usepackage[style=numeric, backend=biber, sorting=none, maxbibnames=10, doi=false, giveninits=true, eprint=false]{biblatex}
 \addbibresource{bibliography.bib}
-\addbibresource{unpublished.bib}
 
 \renewbibmacro{in:}{}
 
@@ -69,108 +71,78 @@
 \forcsvlist{\listadd\boldnames}
   {{Lange, J\bibinitperiod\bibinitdelim U\bibinitperiod}, {Lange, J\bibinitperiod}, {Ulf Lange, J\bibinitperiod}}
 
+\renewenvironment{section}[1]
+  {
+  \medskip
+  {\color{blue} \MakeUppercase{\bf #1}}
+  \smallskip
+  \hrule
+  \medskip
+  \begin{adjustwidth}{0.3cm}{}
+  }
+  {
+  \end{adjustwidth}
+  }
+
+\newenvironment{ref-section}[1]
+  {
+  \medskip
+  {\color{blue} \MakeUppercase{\bf #1}}
+  \smallskip
+  \hrule
+  \medskip
+  \begin{refsection}
+  }
+  {
+  \end{refsection}
+  }
+
+\newcommand{\entry}[3]{{\bf #1} \hfill {#2} \\ {#3}}
+
 \begin{document}
 
 \centerline{\color{blue} \LARGE \bf Johannes Ulf Lange}
-\centerline{UC Santa Cruz, Astronomy \& Astrophysics Department}
-\centerline{jolange@ucsc.edu, johannesulf.github.io}
+\centerline{Kavli Institute for Particle Astrophysics and Cosmology}
+\centerline{julange@stanford.edu, johannesulf.github.io}
 \medskip
 
-\begin{rSection}{Research Interests}
-  \begin{adjustwidth}{0.5cm}{}
-    Cosmology, Large-Scale Structure, Weak Gravitational Lensing, Galaxy-Halo Connection, Galaxy Formation Theory, Statistical Methods and Machine Learning
-  \end{adjustwidth}
-\end{rSection}
+\begin{section}{Research Interests}
+  Cosmology, Large-Scale Structure, Weak Gravitational Lensing, Galaxy-Halo Connection, Galaxy Formation Theory, Statistical Methods and Machine Learning
+\end{section}
 
-\begin{rSection}{Education}
-  \begin{adjustwidth}{0.5cm}{}
-    \begin{rSubsection}{Yale University}{08/2014 -- 08/2019}{M.Sc., M.Phil, Ph.D. in Astronomy\\Thesis Advisor: Frank van den Bosch}{}\end{rSubsection}
+\begin{section}{Education}
+  \entry{Yale University}{08/2014 -- 08/2019}{M.Sc., M.Phil, Ph.D. in Astronomy\\Thesis Advisor: Frank van den Bosch} \medskip \\
+  \entry{Ruprecht-Karls-Universität Heidelberg}{09/2012 -- 08/2014}{Master of Science in Physics} \medskip \\
+  \entry{Freie Universität Berlin}{10/2009 -- 08/2012}{Bachelor of Science in Physics}
+\end{section}
 
-    \begin{rSubsection}{Ruprecht-Karls-Universität Heidelberg}{09/2012 -- 08/2014}{Master of Science in Physics}{}\end{rSubsection}
+\begin{section}{Positions}
+  \entry{Kavli Institute for Particle Astrophysics and Cosmology}{09/2021 -- 08/2023}{Stanford--Santa Cruz Cosmology Postdoctoral Fellow} \medskip \\
+  \entry{University of California, Santa Cruz}{09/2019 -- 08/2021}{Stanford--Santa Cruz Cosmology Postdoctoral Fellow}
+\end{section}
 
-    \begin{rSubsection}{Freie Universität Berlin}{10/2009 -- 08/2012}{Bachelor of Science in Physics}{}\end{rSubsection}
-  \end{adjustwidth}
-\end{rSection}
-
-\begin{rSection}{Position}
-  \begin{adjustwidth}{0.5cm}{}
-    \begin{rSubsection}{Stanford--Santa Cruz Cosmology Fellow}{09/2019 -- 08/2023}{UC Santa Cruz and Stanford University}{}\end{rSubsection}
-  \end{adjustwidth}
-\end{rSection}
-
-\begin{refsection}
-  \begin{rSection}{First-Author Publications}
-    \setlength{\leftskip}{0.5cm}
-    \nocite{Lange2021_inprep, Lange2020_arXiv_2011_2377, Lange2019_MNRAS_490_1870, Lange2019_MNRAS_488_5771, Lange2019_MNRAS_487_3112, Lange2019_MNRAS_482_4824, Lange2018_MNRAS_473_2830, Lange2016_ApJ_819_4, Lange2015_MNRAS_447_939, Lange2013_AA_551_89}
-    \printbibliography[heading=none]
-  \end{rSection}
-\end{refsection}
-
-\begin{rSection}{Co-Author Publications}
-  \setlength{\leftskip}{0.5cm}
-  \nocite{Wang2020_MNRAS_498_4450, vandenBosch2019_MNRAS_488_4984, Wang2019_MNRAS_488_3541, Zentner2019_MNRAS_485_1196, Villarreal2017_MNRAS_472_1088, Campbell2018_MNRAS_477_359, Momcheva2016_ApJS_225_27, Nelson2016_ApJ_828_27}
+\begin{ref-section}{First-Author Publications}
+  \nocite{Lange2021_arXiv_2101_2261, Lange2021_MNRAS_502_2074, Lange2019_MNRAS_490_1870, Lange2019_MNRAS_488_5771, Lange2019_MNRAS_487_3112, Lange2019_MNRAS_482_4824, Lange2018_MNRAS_473_2830, Lange2016_ApJ_819_4, Lange2015_MNRAS_447_939, Lange2013_AA_551_89}
   \printbibliography[heading=none]
-\end{rSection}
+\end{ref-section}
 
-\newpage
+\begin{ref-section}{Co-Author Publications}
+  \nocite{Huang2021_arXiv_2109_2646, Xhakaj2021_arXiv_2106_6656, Wang2020_MNRAS_498_4450, vandenBosch2019_MNRAS_488_4984, Wang2019_MNRAS_488_3541, Zentner2019_MNRAS_485_1196, Villarreal2017_MNRAS_472_1088, Campbell2018_MNRAS_477_359, Momcheva2016_ApJS_225_27, Nelson2016_ApJ_828_27}
+  \printbibliography[heading=none]
+\end{ref-section}
 
-\begin{rSection}{Selected Talks}
-  \begin{adjustwidth}{0.5cm}{}
-  
-    \begin{rSubsection}{DESI AI Meeting (invited)}{12/2020}{Dark Energy Spectroscopic Instrument Collaboration}{}\end{rSubsection}
-  
-    \begin{rSubsection}{Cosmology Seminar}{10/2020}{Lawrence Berkeley National Laboratory}{}\end{rSubsection}
+\begin{section}{Invited Talks}
+  \entry{HEAP Seminar}{12/2021}{University of Utah} \medskip \\
+  \entry{Astronomy Colloquium}{09/2021}{Swinburne University of Technology} \medskip \\
+  \entry{Growth of Structure Webinar}{06/2021}{University of California, Santa Cruz} \medskip \\
+  \entry{Growth of Structure Webinar}{06/2021}{University of California, Santa Cruz} \medskip \\
+  \entry{Research Progress Meeting}{01/2019}{Lawrence Berkeley National Laboratory} \medskip \\
+  \entry{CCAPP Seminar}{01/2019}{Center for Cosmology and AstroParticle Physics} \medskip \\
+  \entry{BCCP Seminar}{09/2018}{University of California, Berkeley} \medskip \\
+  \entry{The Galaxy-Halo Connection Across Cosmic Time}{07/2017}{Kavli Institute for Theoretical Physics}
+\end{section}
 
-    \begin{rSubsection}{The Galaxy-Halo Connection Across Cosmic Time (invited)}{08/2020}{Kavli Institute for Theoretical Physics}{}\end{rSubsection}
-
-    \begin{rSubsection}{Santa Cruz Galaxy Workshop}{08/2019}{University of California, Santa Cruz}{}\end{rSubsection}
-
-    \begin{rSubsection}{Research Progress Meeting (invited)}{01/2019}{Lawrence Berkeley National Laboratory}{}\end{rSubsection}
-
-    \begin{rSubsection}{CCAPP Seminar (invited)}{01/2019}{Center for Cosmology and AstroParticle Physics}{}\end{rSubsection}
-
-    \begin{rSubsection}{Cosmology Seminar}{12/2018}{Max Planck Institute for Astrophysics}{}\end{rSubsection}
-
-    \begin{rSubsection}{BCCP Seminar (invited)}{09/2018}{University of California, Berkeley}{}\end{rSubsection}
-
-    \begin{rSubsection}{The Galaxy-Halo Connection Across Cosmic Time (invited)}{07/2017}{Kavli Institute for Theoretical Physics}{}\end{rSubsection}
-
-  \end{adjustwidth}
-\end{rSection}
-
-\begin{rSection}{Skills}
-  \begin{itemize}[leftmargin=1.0cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
-    \item Programming Languages – C/C++, Python, Cython, Java
-    \item Scientific Applications – NumPy, SciPy, matplotlib, LaTeX, git
-    \item Languages – German (native), English (fluent), Chinese (basic)
-  \end{itemize}
-\end{rSection}
-
-\begin{rSection}{Honors and Awards}
-  \begin{itemize}[leftmargin=1.0cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
-    \item Brouwer Ph.D. Thesis Prize, Yale University
-    \item Cosmology Fellowship, University of California, Santa Cruz and Stanford University
-    \item Graduate Fellowship Program, Kavli Institute for Theoretical Physics
-    \item Henry A. Smith Fellowship, Yale University
-    \item DAAD (German Academic Exchange Service) Scholarship
-    \item Deutschlandstipendium National Scholarship Program
-    \item Ernst Reuter Scholarship, Free University of Berlin
-    \item Dean's List, University of California, Santa Barbara
-  \end{itemize}
-\end{rSection}
-
-\begin{rSection}{Leadership and Service}
-  \begin{itemize}[leftmargin=1.0cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
-    \item Referee for Astronomy \& Astrophysics and Monthly Notices of the Royal Astronomical Society
-    \item Co-Organizer for the KITP Online Conference ``The Galaxy-Halo Connection Across Cosmic Time: Recent Updates'', 08/2020
-    \item Co-Organizer for the KIPAC Online Workshop ``Precision Measurements and Modeling of Lensing and Clustering in the DESI Era'', 07/2020
-    \item Member of the UCSC Astronomy \& Astrophysics Colloquium Committee
-    \item Co-Organizer of the Weekly UCSC Cosmology and Galaxies Paper Discussion
-    \item Member of the Dark Energy Spectroscopic Instrument (DESI) Collaboration
-  \end{itemize}
-\end{rSection}
-
-\begin{rSection}{Teaching}
+\begin{section}{Teaching}
   \begin{itemize}[leftmargin=1.0cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
     \item Certificate of College Teaching Preparation from Yale University
     \item Astrostatistics and Data Mining, Lab Leader, Yale University, Spring 2018
@@ -180,9 +152,9 @@
     \item Gravity, Astrophysics, and Cosmology, Grader, Yale University, Spring 2015
     \item Introduction to Astronomical Observing, Lab TA, Yale University, Fall 2014
   \end{itemize}
-\end{rSection}
+\end{section}
 
-\begin{rSection}{Outreach}
+\begin{section}{Outreach}
   \begin{itemize}[leftmargin=1.0cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
     \item Talk at Astronomy on Tab, New Haven, CT, 06/2019
     \item Talk at Institute for Learning in Retirement, New Haven, CT, 04/2019
@@ -192,20 +164,35 @@
     \item Tutor at New Haven Reads, New Haven, CT, 2015 - 2018
     \item Member of UCSB Physics Circus, UC Santa Barbara, Santa Barbara, CA, 2012
   \end{itemize}
-\end{rSection}
+\end{section}
 
-\begin{rSection}{References}
-  \begin{adjustwidth}{0.5cm}{}
+\begin{section}{Honors and Awards}
+  \begin{itemize}[leftmargin=1.0cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+    \item Brouwer Thesis Prize, Yale University
+    \item Cosmology Fellowship, University of California, Santa Cruz and Stanford University
+    \item Graduate Fellowship Program, Kavli Institute for Theoretical Physics
+    \item Henry A. Smith Fellowship, Yale University
+    \item DAAD (German Academic Exchange Service) Scholarship
+    \item Deutschlandstipendium National Scholarship Program
+    \item Ernst Reuter Scholarship, Free University of Berlin
+    \item Dean's List, University of California, Santa Barbara
+  \end{itemize}
+\end{section}
 
-    \begin{rSubsection}{Frank C. van den Bosch}{}{Department of Astronomy\\Yale University\\frank.vandenosch@yale.edu}{}\end{rSubsection}
-    
-    \begin{rSubsection}{Alexie Leauthaud}{}{Department of Astronomy \& Astrophysics\\University of California, Santa Cruz\\alexie@ucsc.edu}{}\end{rSubsection}
-    
-    \begin{rSubsection}{Andrew P. Hearin}{}{High Energy Physics Division\\Argonne National Laboratory\\ahearin@anl.gov}{}\end{rSubsection}
-    
-    \begin{rSubsection}{Andrew R. Zentner}{}{Department of Physics and Astronomy\\University of Pittsburgh\\zentner@pitt.edu}{}\end{rSubsection}
+\begin{section}{Leadership and Service}
+  \begin{itemize}[leftmargin=1.0cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+    \item Member of the Dark Energy Spectroscopic Instrument (DESI) Collaboration and the DESI Early Career Scientists Committee
+    \item Referee for Astronomy \& Astrophysics, Monthly Notices of the Royal Astronomical Society and The Astrophysical Journal
+    \item Organizer for the KITP Online Conference ``The Galaxy-Halo Connection Across Cosmic Time: Recent Updates'', 08/2020
+    \item Organizer for the KIPAC Online Workshop ``Precision Measurements and Modeling of Lensing and Clustering in the DESI Era'', 07/2020
+  \end{itemize}
+\end{section}
 
-  \end{adjustwidth}
-\end{rSection}
+\begin{section}{References}
+    \entry{Frank C. van den Bosch}{}{Department of Astronomy\\Yale University\\frank.vandenosch@yale.edu} \medskip \\
+    \entry{Alexie Leauthaud}{}{Department of Astronomy \& Astrophysics\\University of California, Santa Cruz\\alexie@ucsc.edu} \medskip \\
+    \entry{Andrew P. Hearin}{}{High Energy Physics Division\\Argonne National Laboratory\\ahearin@anl.gov} \medskip \\
+    \entry{Andrew R. Zentner}{}{Department of Physics and Astronomy\\University of Pittsburgh\\zentner@pitt.edu}
+\end{section}
 
 \end{document}

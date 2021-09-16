@@ -11,11 +11,11 @@ header:
   overlay_filter: 0.2
 ---
 
-I believe it is vital to make research accessible to the general public. I gave talks about dark matter, dark energy and cosmology at local primary schools, Yale Open Labs science cafes, the Institute for Learning in Retirement, Astronomy on Tab events and the Leitner Family Observatory.
+I believe it is vital to make research accessible to the general public. I gave talks about dark matter, dark energy and cosmology at local primary schools, Yale Open Labs science cafes, the New Haven Institute for Learning in Retirement, Astronomy on Tab events and the Yale Leitner Family Observatory.
 
 # Memberships
 
-* Open Labs Yale, since Fall 2016
+* Open Labs Yale, Fall 2016 - Spring 2019
 * New Haven Reads, Fall 2015 - Spring 2018
 * UCSB Physics Circus, Spring 2012
 
