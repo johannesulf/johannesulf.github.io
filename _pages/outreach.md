@@ -11,7 +11,7 @@ header:
   overlay_filter: 0.2
 ---
 
-I believe it is vital to make research accessible to the general public. I gave talks about dark matter, dark energy and cosmology at local primary schools, Yale Open Labs science cafes, the New Haven Institute for Learning in Retirement, Astronomy on Tab events, the Yale Leitner Family Observatory and Stanford Splash.
+I believe it is vital to make research accessible to the general public. I love conveying my passion for dark matter, dark energy, cosmology, and astronomy in general to a broader audience. I have given talks at local primary schools, Yale Open Labs science cafes, the New Haven Institute for Learning in Retirement, Astronomy on Tab events, the Yale Leitner Family Observatory, Stanford Splash, and KIPAC public lectures, among others.
 
 # Memberships
 
@@ -22,8 +22,10 @@ I believe it is vital to make research accessible to the general public. I gave 
 
 # Videos
 
-Below, you can find videos of outreach talks I gave at the Open Labs Science Cafe.
+Below, you can find a selection of outreach talks I've given while at Stanford and Yale.
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/qiERhu6NDgs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="border: 3px solid #EEE"></iframe></center>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sz9XwHBfdCw" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <br/>
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/fNtGaepm4wE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="border: 3px solid #EEE"></iframe></center>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9_0DekpQC6g" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<br/>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fDyFu7IxTGY" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
