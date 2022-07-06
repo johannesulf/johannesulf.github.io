@@ -25,7 +25,7 @@ I believe it is vital to make research accessible to the general public. I love 
 Below, you can find a selection of outreach talks I've given while at Stanford and Yale.
 
 <p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sz9XwHBfdCw" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<br/>
+
 <p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9_0DekpQC6g" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<br/>
+
 <p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fDyFu7IxTGY" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
