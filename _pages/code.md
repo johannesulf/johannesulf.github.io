@@ -21,7 +21,7 @@ I am contributing to the halotools project, a python package for analyzing large
 
 I implemented the handy tabulation method described in [Zheng & Guo et al. (2016)](https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.4015Z/abstract) into an easy-to-use python package that works well with halotools. I also generalize the method and enable fast computation of galaxy-galaxy lensing statistics and implementation of galaxy assembly bias models. This package is ideal for HOD fitting and I have used it in many publications.
 
-[<i class="fab fa-fw fa-github"></i> GitHub](https://github.com/johannesulf/TabCorr){: .btn .btn--primary }
+[<i class="fab fa-fw fa-python"></i> PyPI](https://pypi.org/project/tabcorr/){: .btn .btn--primary } [<i class="fab fa-fw fa-github"></i> GitHub](https://github.com/johannesulf/TabCorr){: .btn .btn--primary } [<i class="fas fa-book"></i> Docs](https://github.com/johannesulf/TabCorr){: .btn .btn--primary }
 
 ## dsigma
 
