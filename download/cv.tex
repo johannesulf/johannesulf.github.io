@@ -1,23 +1,22 @@
-\documentclass[12pt,letterpaper]{article}
+\documentclass[11pt]{article}
 
-\topmargin=0.0in
-\oddsidemargin=0.0in
-\evensidemargin=0in
-\textwidth=6.5in
-\marginparwidth=0.5in
-\headheight=0pt
-\headsep=0pt
-\textheight=9.0in
-\pagestyle{empty}
+\usepackage[margin=0.7in]{geometry}
 
-\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{changepage}
 \usepackage{color}
 \usepackage{enumitem}
-\definecolor{blue}{cmyk}{1.0, 0.35, 0.0, 0.4}
+\definecolor{yaleblue}{rgb}{0.06, 0.3, 0.57}
 \parindent 0pt
 \usepackage[parfill]{parskip}
+\usepackage{multicol}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\usepackage[lastpage,user]{zref}
+\fancyfoot[C]{\thepage\ of \zpageref{LastPage}}
 
 \usepackage[style=numeric, backend=biber, sorting=none, maxbibnames=10, doi=false, giveninits=true, eprint=false]{biblatex}
 \addbibresource{bibliography.bib}
@@ -71,10 +70,12 @@
 \forcsvlist{\listadd\boldnames}
   {{Lange, J\bibinitperiod\bibinitdelim U\bibinitperiod}, {Lange, J\bibinitperiod}, {Ulf Lange, J\bibinitperiod}}
 
+\AtEveryBibitem{\iffieldsequal{eid}{pages}{\clearfield{pages}}{}}
+
 \renewenvironment{section}[1]
   {
   \medskip
-  {\color{blue} \MakeUppercase{\bf #1}}
+  {\color{yaleblue} \MakeUppercase{\bf #1}}
   \smallskip
   \hrule
   \medskip
@@ -87,7 +88,7 @@
 \newenvironment{ref-section}[1]
   {
   \medskip
-  {\color{blue} \MakeUppercase{\bf #1}}
+  {\color{yaleblue} \MakeUppercase{\bf #1}}
   \smallskip
   \hrule
   \medskip
@@ -101,13 +102,13 @@
 
 \begin{document}
 
-\centerline{\color{blue} \LARGE \bf Johannes Ulf Lange}
-\centerline{Kavli Institute for Particle Astrophysics and Cosmology}
-\centerline{julange@stanford.edu, johannesulf.github.io}
-\medskip
+\centerline{\color{yaleblue} \Huge \bf Johannes U. Lange}
+\centerline{University of Michigan LCTP Postdoctoral Fellow}
+\centerline{610-470-4833 $\vert$ julange.astro@pm.me $\vert$ johannesulf.github.io}
+\bigskip
 
 \begin{section}{Research Interests}
-  Cosmology, Large-Scale Structure, Weak Gravitational Lensing, Galaxy-Halo Connection, Galaxy Formation Theory, Statistical Methods and Machine Learning
+  Cosmology, Galaxy-Halo Connection, Galaxy Formation, Statistical Methods and Machine Learning
 \end{section}
 
 \begin{section}{Education}
@@ -117,49 +118,48 @@
 \end{section}
 
 \begin{section}{Positions}
-  \entry{Kavli Institute for Particle Astrophysics and Cosmology}{09/2021 -- 08/2023}{Stanford--Santa Cruz Cosmology Postdoctoral Fellow} \medskip \\
+  \entry{University of Michigan}{09/2022 -- 08/2026}{Leinweber Center for Theoretical Physics Fellow} \medskip \\
+  \entry{Stanford University}{09/2021 -- 08/2022}{Stanford--Santa Cruz Cosmology Postdoctoral Fellow} \medskip \\
   \entry{University of California, Santa Cruz}{09/2019 -- 08/2021}{Stanford--Santa Cruz Cosmology Postdoctoral Fellow}
 \end{section}
 
+\begin{section}{Teaching}
+  \entry{Certificate of College Teaching Preparation, Yale University}{2014-2019}{The Certificate of College Teaching Preparation (CCTP) is an opportunity for graduate students to engage in a comprehensive training program in effective college teaching. The CCTP includes workshops in effective science teaching, advanced workshops, participation in discussion groups, reflections on teaching and designing a teaching portfolio.} \medskip \\
+  \entry{Teaching Fellow, Yale University}{Spring 2016, Spring 2018}{Course: Astrostatistics and Data Mining\\ Responsibilities: Designed and delivered weekly 45-minutes hands-on coding training for small groups of students. Also graded problem sets and wrote corresponding solutions.} \medskip \\
+  \entry{Teaching Fellow, Yale University}{Fall 2017, Fall 2014}{Course: Introduction to Astronomical Observing\\ Responsibilities: Mentored small student groups during regular astronomical observing labs at Yale Leitner Family Observatory. Also evaluated lab reports submitted by students.} \medskip \\
+  \entry{Teaching Fellow, Yale University}{Fall 2015}{Course: Introduction to Cosmology\\ Responsibilities: Designed and delivered weekly active learning-centered discussion sections for small groups of students. Also graded problem sets and exams.} \medskip \\
+  \entry{Teaching Fellow, Yale University}{Spring 2015}{Course: Gravity, Astrophysics, and Cosmology\\ Responsibilities: Graded homework and mentored students for final project.}
+\end{section}
+
 \begin{ref-section}{First-Author Publications}
-  \nocite{Lange2021_arXiv_2101_2261, Lange2021_MNRAS_502_2074, Lange2019_MNRAS_490_1870, Lange2019_MNRAS_488_5771, Lange2019_MNRAS_487_3112, Lange2019_MNRAS_482_4824, Lange2018_MNRAS_473_2830, Lange2016_ApJ_819_4, Lange2015_MNRAS_447_939, Lange2013_AA_551_89}
+  \nocite{Lange2022_MNRAS_509_1779, Lange2021_MNRAS_502_2074, Lange2019_MNRAS_490_1870, Lange2019_MNRAS_488_5771, Lange2019_MNRAS_487_3112, Lange2019_MNRAS_482_4824, Lange2018_MNRAS_473_2830, Lange2016_ApJ_819_4, Lange2015_MNRAS_447_939, Lange2013_AA_551_89}
   \printbibliography[heading=none]
 \end{ref-section}
 
 \begin{ref-section}{Co-Author Publications}
-  \nocite{Huang2021_arXiv_2109_2646, Xhakaj2021_arXiv_2106_6656, Wang2020_MNRAS_498_4450, vandenBosch2019_MNRAS_488_4984, Wang2019_MNRAS_488_3541, Zentner2019_MNRAS_485_1196, Villarreal2017_MNRAS_472_1088, Campbell2018_MNRAS_477_359, Momcheva2016_ApJS_225_27, Nelson2016_ApJ_828_27}
+  \nocite{Abareshi2022_arXiv_2205_0939, Dawson2022_arXiv_2203_7291, Ruggeri2022_arXiv_2208_1031, Wang2022_arXiv_2204_5332, Leauthaud2022_MNRAS_510_6150, Huang2022_MNRAS_tmp_1843, Xhakaj2022_MNRAS_514_2876, Wang2020_MNRAS_498_4450, vandenBosch2019_MNRAS_488_4984, Wang2019_MNRAS_488_3541, Zentner2019_MNRAS_485_1196, Villarreal2017_MNRAS_472_1088, Campbell2018_MNRAS_477_359, Momcheva2016_ApJS_225_27, Nelson2016_ApJ_828_27}
   \printbibliography[heading=none]
 \end{ref-section}
 
 \begin{section}{Invited Talks}
   \entry{HEAP Seminar}{12/2021}{University of Utah} \medskip \\
   \entry{Astronomy Colloquium}{09/2021}{Swinburne University of Technology} \medskip \\
-  \entry{Growth of Structure Webinar}{06/2021}{University of California, Santa Cruz} \medskip \\
-  \entry{Growth of Structure Webinar}{06/2021}{University of California, Santa Cruz} \medskip \\
+  \entry{Growth of Structure Webinar (Redshift-Space Distortions)}{07/2021}{University of California, Santa Cruz} \medskip \\
+  \entry{Growth of Structure Webinar (Lensing + Clustering)}{06/2021}{University of California, Santa Cruz} \medskip \\
   \entry{Research Progress Meeting}{01/2019}{Lawrence Berkeley National Laboratory} \medskip \\
   \entry{CCAPP Seminar}{01/2019}{Center for Cosmology and AstroParticle Physics} \medskip \\
   \entry{BCCP Seminar}{09/2018}{University of California, Berkeley} \medskip \\
   \entry{The Galaxy-Halo Connection Across Cosmic Time}{07/2017}{Kavli Institute for Theoretical Physics}
 \end{section}
 
-\begin{section}{Teaching}
-  \begin{itemize}[leftmargin=1.0cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
-    \item Certificate of College Teaching Preparation from Yale University
-    \item Astrostatistics and Data Mining, Lab Leader, Yale University, Spring 2018
-    \item Introduction to Astronomical Observing, Lab TA, Yale University, Fall 2017
-    \item Astrostatistics and Data Mining, Lab Leader, Yale University, Spring 2016
-    \item Introduction to Cosmology, Section Leader, Yale University, Fall 2015
-    \item Gravity, Astrophysics, and Cosmology, Grader, Yale University, Spring 2015
-    \item Introduction to Astronomical Observing, Lab TA, Yale University, Fall 2014
-  \end{itemize}
-\end{section}
-
 \begin{section}{Outreach}
-  \begin{itemize}[leftmargin=1.0cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
-    \item Talk at Astronomy on Tab, New Haven, CT, 06/2019
+  \begin{itemize}[leftmargin=0.5cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+    \item Invited KIPAC Public Lecture, Palo Alto, CA, 07/2022
+    \item Class at Stanford Splash, Palo Alto, CA, 11/2021
+    \item Talk at Astronomy on Tap, New Haven, CT, 06/2019
     \item Talk at Institute for Learning in Retirement, New Haven, CT, 04/2019
-    \item Talks at Leitner Family Observatory, New Haven, CT, 02/2018 and 05/19
-    \item Talks at Open Labs Science Cafe, Yale University, New Haven, CT, 10/2017 and 04/19
+    \item Talks at Leitner Family Observatory, New Haven, CT, 02/2018 and 05/2019
+    \item Talks at Open Labs Science Cafe, Yale University, New Haven, CT, 10/2017 and 04/2019
     \item Member of Open Labs, Yale University, New Haven, CT, 2016 - 2019
     \item Tutor at New Haven Reads, New Haven, CT, 2015 - 2018
     \item Member of UCSB Physics Circus, UC Santa Barbara, Santa Barbara, CA, 2012
@@ -167,8 +167,8 @@
 \end{section}
 
 \begin{section}{Honors and Awards}
-  \begin{itemize}[leftmargin=1.0cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
-    \item Brouwer Thesis Prize, Yale University
+  \begin{itemize}[leftmargin=0.5cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+    \item Brouwer Ph.D. Thesis Prize, Yale University
     \item Cosmology Fellowship, University of California, Santa Cruz and Stanford University
     \item Graduate Fellowship Program, Kavli Institute for Theoretical Physics
     \item Henry A. Smith Fellowship, Yale University
@@ -180,19 +180,24 @@
 \end{section}
 
 \begin{section}{Leadership and Service}
-  \begin{itemize}[leftmargin=1.0cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
-    \item Member of the Dark Energy Spectroscopic Instrument (DESI) Collaboration and the DESI Early Career Scientists Committee
+  \begin{itemize}[leftmargin=0.5cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
     \item Referee for Astronomy \& Astrophysics, Monthly Notices of the Royal Astronomical Society and The Astrophysical Journal
+    \item Member of the Stanford Physics Equity \& Inclusion Committee, 2021 - 2022
+    \item Interim Co-Chair of the Dark Energy Spectroscopic Instrument (DESI) C$^3$ Working Group, 2022
+    \item Member of the DESI Early Career Scientists Committee, 2021 - 2022
+    \item Mentor for the DESI Diversity, Equity, and Inclusion Mentorship Program, 2021 - present
+    \item Member of the UCSC Astronomy Department Colloquium Committee, 2019 - 2020
     \item Organizer for the KITP Online Conference ``The Galaxy-Halo Connection Across Cosmic Time: Recent Updates'', 08/2020
     \item Organizer for the KIPAC Online Workshop ``Precision Measurements and Modeling of Lensing and Clustering in the DESI Era'', 07/2020
   \end{itemize}
 \end{section}
 
 \begin{section}{References}
-    \entry{Frank C. van den Bosch}{}{Department of Astronomy\\Yale University\\frank.vandenosch@yale.edu} \medskip \\
-    \entry{Alexie Leauthaud}{}{Department of Astronomy \& Astrophysics\\University of California, Santa Cruz\\alexie@ucsc.edu} \medskip \\
-    \entry{Andrew P. Hearin}{}{High Energy Physics Division\\Argonne National Laboratory\\ahearin@anl.gov} \medskip \\
-    \entry{Andrew R. Zentner}{}{Department of Physics and Astronomy\\University of Pittsburgh\\zentner@pitt.edu}
+    \begin{multicols*}{2}
+    \entry{Frank C. van den Bosch}{}{Department of Astronomy\\Yale University\\frank.vandenosch@yale.edu} \\ \\
+    \entry{Alexie Leauthaud}{}{Department of Astronomy \& Astrophysics\\University of California, Santa Cruz\\alexie@ucsc.edu} \columnbreak \\
+    \entry{H\'{e}ctor G. Arce}{}{Department of Astronomy\\Yale University\\hector.arce@yale.edu}
+    \end{multicols*}
 \end{section}
 
 \end{document}

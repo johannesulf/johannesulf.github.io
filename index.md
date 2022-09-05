@@ -9,11 +9,11 @@ header:
 
 # About Me
 
-I'm a Stanford--Santa Cruz Cosmology Postdoctoral Fellow. Currently, I spend most of my time at the Kavli Institute for Particle Astrophysics and Cosmology. Additionally, I regularly visit the University of California, Santa Cruz to work with collaborators. I'm a member of the DESI collaboration and also work with data from other large-scale structure surveys like SDSS, DES, HSC and KiDS. The following broad questions drive my research.
+I'm an astrophysicist interested in galaxies, cosmology, and machine learning. My work focuses on analyzing large astronomical data sets to extract fundamental insights into our Universe. I'm a member of the Dark Energy Survey Instrument collaboration and also work with data from other large-scale galaxy surveys like the Dark Energy Survey, the Hyper Suprime-Cam survey, and the Kilo-Degree Survey. The following broad questions drive my research.
 
-* Can the Lambda-CDM cosmological model describe both the results from galaxy surveys as well as observations of the cosmic microwave background?
-* Are the dynamics of galaxies as well as the gravitational lensing effect consistent with predictions from general relativity?
-* What is the relationship between galaxies and dark matter halos? Do current models of galaxy formation correctly predict this relation?
-* What are ideal methods to extract information from galaxy surveys in an unbiased and maximally informative way?
+* What are the properties of dark energy and dark matter? Are they correctly predicted by the standard model of cosmology?
+* Does general relativity hold on cosmological scales? Does it correctly predict the observed cosmic gravitational lensing as well as the dynamics of galaxies?
+* What is the relationship between galaxies and dark matter halos, the so-called galaxy-halo connection? Do current models of galaxy formation correctly predict this relation?
+* What are ideal methods to extract information from large astronomical data sets in an unbiased and maximally informative way?
 
-Before coming to California, I completed my bachelor's degree at the Free University of Berlin. Afterwards, I obtained a master's degree from the University of Heidelberg. I also participated in a half-year exchange program at the University of California, Santa Barbara and a one-year exchange program at the Chinese University of Hong Kong. Additionally, I was a Graduate Fellow at the Kavli Institute for Theoretical Physics in Santa Barbara. Finally, I completed my Ph.D. under the supervision of Frank van den Bosch at Yale University.
+Currently, I'm a postdoctoral fellow at the Leinweber Center for Theoretical Physics. Before coming to Michigan, I completed my bachelor's degree at the Free University of Berlin. Afterward, I obtained a master's degree from the University of Heidelberg. I also participated in a half-year exchange program at the University of California, Santa Barbara and a one-year exchange program at the Chinese University of Hong Kong. Additionally, I was a Graduate Fellow at the Kavli Institute for Theoretical Physics in Santa Barbara. In 2019, I completed my Ph.D. under the supervision of Frank van den Bosch at Yale University. Afterward, I was a Cosmology Fellow appointed jointly by the University of California, Santa Cruz and Stanford University.
