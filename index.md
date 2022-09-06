@@ -3,8 +3,8 @@ layout: single
 author_profile: true
 title: "Welcome to my Homepage!"
 header:
-  overlay_image: /_images/PIA12348.jpg
-  caption: "Image Credit: NASA"
+  overlay_image: /_images/main_image_deep_field_smacs0723-5mb.jpg
+  caption: "Image Credit: NASA, ESA, CSA, and STScI"
 ---
 
 # About Me
