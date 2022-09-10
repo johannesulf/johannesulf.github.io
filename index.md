@@ -9,7 +9,7 @@ header:
 
 # About Me
 
-I'm an astrophysicist interested in galaxies, cosmology, and machine learning. My work focuses on analyzing large astronomical data sets to extract fundamental insights into our Universe. I'm a member of the Dark Energy Survey Instrument collaboration and also work with data from other large-scale galaxy surveys like the Dark Energy Survey, the Hyper Suprime-Cam survey, and the Kilo-Degree Survey. The following broad questions drive my research.
+I'm an astrophysicist interested in galaxies, cosmology, and machine learning. My work focuses on analyzing large astronomical data sets to extract fundamental insights into our Universe. I'm a member of the Dark Energy Spectroscopic Instrument collaboration and also work with data from other large-scale galaxy surveys like the Dark Energy Survey, the Hyper Suprime-Cam survey, and the Kilo-Degree Survey. The following broad questions drive my research.
 
 * What are the properties of dark energy and dark matter? Are they correctly predicted by the standard model of cosmology?
 * Does general relativity hold on cosmological scales? Does it correctly predict the observed cosmic gravitational lensing as well as the dynamics of galaxies?
