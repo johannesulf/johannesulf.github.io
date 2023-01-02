@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 
 \usepackage[margin=0.7in]{geometry}
 
@@ -18,7 +18,7 @@
 \usepackage[lastpage,user]{zref}
 \fancyfoot[C]{\thepage\ of \zpageref{LastPage}}
 
-\usepackage[style=numeric, backend=biber, sorting=none, maxbibnames=10, doi=false, giveninits=true, eprint=false]{biblatex}
+\usepackage[style=numeric, backend=biber, sorting=none, maxbibnames=1, doi=false, giveninits=true, eprint=false]{biblatex}
 \addbibresource{bibliography.bib}
 
 \renewbibmacro{in:}{}
@@ -31,6 +31,7 @@
 \def\apj{{ApJ}}
 \def\apjl{{ApJL}}
 \def\apjs{{ApJS}}
+\def\aj{{AJ}}
 
 % Thanks to "Audrey" from stackexchange placing the following snippets under public domain license, i.e. CC0.
 % https://tex.meta.stackexchange.com/questions/1255
@@ -44,31 +45,6 @@
 \DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
 \newrobustcmd*{\mkbibdesc}[1]{%
   \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
-
-% Highlight my name. See stackexchange answer by "Audrey".
-% https://tex.stackexchange.com/questions/73136
-% https://tex.stackexchange.com/users/4483
-\makeatletter
-\usepackage{xpatch}
-\newbibmacro*{name:bold}[2]{%
-  \edef\blx@tmp@name{\expandonce#1, \expandonce#2}%
-  \def\do##1{\ifdefstring{\blx@tmp@name}{##1}{\bfseries\listbreak}{}}%
-  \dolistloop{\boldnames}}
-\newcommand*{\boldnames}{}
-\makeatother
-
-\xpretobibmacro{name:family}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
-\xpretobibmacro{name:given-family}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
-\xpretobibmacro{name:family-given}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
-\xpretobibmacro{name:delim}{\begingroup\normalfont}{}{}
-
-\xapptobibmacro{name:family}{\endgroup}{}{}
-\xapptobibmacro{name:given-family}{\endgroup}{}{}
-\xapptobibmacro{name:family-given}{\endgroup}{}{}
-\xapptobibmacro{name:delim}{\endgroup}{}{}
-
-\forcsvlist{\listadd\boldnames}
-  {{Lange, J\bibinitperiod\bibinitdelim U\bibinitperiod}, {Lange, J\bibinitperiod}, {Ulf Lange, J\bibinitperiod}}
 
 \AtEveryBibitem{\iffieldsequal{eid}{pages}{\clearfield{pages}}{}}
 
@@ -118,17 +94,9 @@
 \end{section}
 
 \begin{section}{Positions}
-  \entry{University of Michigan}{09/2022 -- 08/2026}{Leinweber Center for Theoretical Physics Fellow} \medskip \\
+  \entry{University of Michigan}{09/2022 -- present}{Leinweber Center for Theoretical Physics Fellow} \medskip \\
   \entry{Stanford University}{09/2021 -- 08/2022}{Stanford--Santa Cruz Cosmology Postdoctoral Fellow} \medskip \\
   \entry{University of California, Santa Cruz}{09/2019 -- 08/2021}{Stanford--Santa Cruz Cosmology Postdoctoral Fellow}
-\end{section}
-
-\begin{section}{Teaching}
-  \entry{Certificate of College Teaching Preparation, Yale University}{2014-2019}{The Certificate of College Teaching Preparation (CCTP) is an opportunity for graduate students to engage in a comprehensive training program in effective college teaching. The CCTP includes workshops in effective science teaching, advanced workshops, participation in discussion groups, reflections on teaching and designing a teaching portfolio.} \medskip \\
-  \entry{Teaching Fellow, Yale University}{Spring 2016, Spring 2018}{Course: Astrostatistics and Data Mining\\ Responsibilities: Designed and delivered weekly 45-minutes hands-on coding training for small groups of students. Also graded problem sets and wrote corresponding solutions.} \medskip \\
-  \entry{Teaching Fellow, Yale University}{Fall 2017, Fall 2014}{Course: Introduction to Astronomical Observing\\ Responsibilities: Mentored small student groups during regular astronomical observing labs at Yale Leitner Family Observatory. Also evaluated lab reports submitted by students.} \medskip \\
-  \entry{Teaching Fellow, Yale University}{Fall 2015}{Course: Introduction to Cosmology\\ Responsibilities: Designed and delivered weekly active learning-centered discussion sections for small groups of students. Also graded problem sets and exams.} \medskip \\
-  \entry{Teaching Fellow, Yale University}{Spring 2015}{Course: Gravity, Astrophysics, and Cosmology\\ Responsibilities: Graded homework and mentored students for final project.}
 \end{section}
 
 \begin{ref-section}{First-Author Publications}
@@ -137,11 +105,12 @@
 \end{ref-section}
 
 \begin{ref-section}{Co-Author Publications}
-  \nocite{Abareshi2022_arXiv_2205_0939, Dawson2022_arXiv_2203_7291, Ruggeri2022_arXiv_2208_1031, Wang2022_arXiv_2204_5332, Leauthaud2022_MNRAS_510_6150, Huang2022_MNRAS_tmp_1843, Xhakaj2022_MNRAS_514_2876, Wang2020_MNRAS_498_4450, vandenBosch2019_MNRAS_488_4984, Wang2019_MNRAS_488_3541, Zentner2019_MNRAS_485_1196, Villarreal2017_MNRAS_472_1088, Campbell2018_MNRAS_477_359, Momcheva2016_ApJS_225_27, Nelson2016_ApJ_828_27}
+  \nocite{Abareshi2022_AJ_164_207, Wang2022_MNRAS_516_4003, Huang2022_MNRAS_515_4722, Ruggeri2022_arXiv_2208_1031, Xhakaj2022_MNRAS_514_2876, Dawson2022_arXiv_2203_7291, Leauthaud2022_MNRAS_510_6150, Wang2020_MNRAS_498_4450, vandenBosch2019_MNRAS_488_4984, Wang2019_MNRAS_488_3541, Zentner2019_MNRAS_485_1196, Villarreal2017_MNRAS_472_1088, Campbell2018_MNRAS_477_359, Momcheva2016_ApJS_225_27, Nelson2016_ApJ_828_27}
   \printbibliography[heading=none]
 \end{ref-section}
 
 \begin{section}{Invited Talks}
+  \entry{Early Career Researcher Cosmology Seminar}{11/2022}{Korea Astronomy and Space Science Institute} \medskip \\
   \entry{HEAP Seminar}{12/2021}{University of Utah} \medskip \\
   \entry{Astronomy Colloquium}{09/2021}{Swinburne University of Technology} \medskip \\
   \entry{Growth of Structure Webinar (Redshift-Space Distortions)}{07/2021}{University of California, Santa Cruz} \medskip \\
@@ -150,6 +119,14 @@
   \entry{CCAPP Seminar}{01/2019}{Center for Cosmology and AstroParticle Physics} \medskip \\
   \entry{BCCP Seminar}{09/2018}{University of California, Berkeley} \medskip \\
   \entry{The Galaxy-Halo Connection Across Cosmic Time}{07/2017}{Kavli Institute for Theoretical Physics}
+\end{section}
+
+\begin{section}{Teaching}
+  \entry{Certificate of College Teaching Preparation, Yale University}{2014-2019}{The Certificate of College Teaching Preparation (CCTP) is an opportunity for graduate students to engage in a comprehensive training program in effective college teaching.} \medskip \\
+  \entry{Teaching Fellow, Yale University}{Spring 2016, Spring 2018}{Course: Astrostatistics and Data Mining\\ Responsibilities: Designed and delivered weekly 45-minutes hands-on coding training for small groups of students. Also graded problem sets and wrote corresponding solutions.} \medskip \\
+  \entry{Teaching Fellow, Yale University}{Fall 2017, Fall 2014}{Course: Introduction to Astronomical Observing\\ Responsibilities: Mentored small student groups during regular astronomical observing labs at Yale Leitner Family Observatory. Also evaluated lab reports submitted by students.} \medskip \\
+  \entry{Teaching Fellow, Yale University}{Fall 2015}{Course: Introduction to Cosmology\\ Responsibilities: Designed and delivered weekly active learning-centered discussion sections for small groups of students. Also graded problem sets and exams.} \medskip \\
+  \entry{Teaching Fellow, Yale University}{Spring 2015}{Course: Gravity, Astrophysics, and Cosmology\\ Responsibilities: Graded homework and mentored students for final project.}
 \end{section}
 
 \begin{section}{Outreach}
@@ -181,22 +158,25 @@
 
 \begin{section}{Leadership and Service}
   \begin{itemize}[leftmargin=0.5cm, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
-    \item Referee for Astronomy \& Astrophysics, Monthly Notices of the Royal Astronomical Society and The Astrophysical Journal
+    \item Referee for Astronomy \& Astrophysics, Monthly Notices of the Royal Astronomical Society, and The Astrophysical Journal
+    \item Co-Chair of the Dark Energy Spectroscopic Instrument (DESI) C$^3$ Working Group, 2022 - present
+    \item Reviewer for the National Science Foundation, 2022
     \item Member of the Stanford Physics Equity \& Inclusion Committee, 2021 - 2022
-    \item Interim Co-Chair of the Dark Energy Spectroscopic Instrument (DESI) C$^3$ Working Group, 2022
     \item Member of the DESI Early Career Scientists Committee, 2021 - 2022
     \item Mentor for the DESI Diversity, Equity, and Inclusion Mentorship Program, 2021 - present
-    \item Member of the UCSC Astronomy Department Colloquium Committee, 2019 - 2020
     \item Organizer for the KITP Online Conference ``The Galaxy-Halo Connection Across Cosmic Time: Recent Updates'', 08/2020
     \item Organizer for the KIPAC Online Workshop ``Precision Measurements and Modeling of Lensing and Clustering in the DESI Era'', 07/2020
+    \item Member of the UCSC Astronomy Department Colloquium Committee, 2019 - 2020
+    \item Member of the Yale Graduate Admissions Committee, 2018 - 2019
   \end{itemize}
 \end{section}
 
 \begin{section}{References}
     \begin{multicols*}{2}
-    \entry{Frank C. van den Bosch}{}{Department of Astronomy\\Yale University\\frank.vandenosch@yale.edu} \\ \\
-    \entry{Alexie Leauthaud}{}{Department of Astronomy \& Astrophysics\\University of California, Santa Cruz\\alexie@ucsc.edu} \columnbreak \\
-    \entry{H\'{e}ctor G. Arce}{}{Department of Astronomy\\Yale University\\hector.arce@yale.edu}
+    \entry{Alexie Leauthaud}{}{University of California, Santa Cruz\\alexie@ucsc.edu} \\ \\
+    \entry{Andrew P. Hearin}{}{Argonne National Laboratory\\ahearin@anl.gov} \columnbreak \\
+    \entry{Frank C. van den Bosch}{}{Yale University\\frank.vandenosch@yale.edu} \\ \\
+    \entry{H\'{e}ctor G. Arce}{}{Yale University\\hector.arce@yale.edu}
     \end{multicols*}
 \end{section}
 
