@@ -15,10 +15,6 @@ title                    : "Johannes U. Lange"
 title_separator          : "-"
 name                     : "Johannes Lange"
 
-# Social Sharing
-twitter:
-  username               : "julange_astro"
-
 # Site Author
 author:
   name             : "Johannes U. Lange"
@@ -38,6 +34,7 @@ author:
       url: "https://github.com/johannesulf"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/julange_astro"
 
 
 # Reading Files
