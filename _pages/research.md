@@ -20,6 +20,7 @@ More generally, I have a broad interest in many areas of astrophysical research.
 
 # Publications
 
+* __Lange, J.U.__  et al., 2023, "Constraints on S<sub>8</sub> from a full-scale and full-shape analysis of redshift-space clustering and galaxy-galaxy lensing in BOSS", submitted to MNRAS
 * Huang, S.; Leauthaud, A.; Bradshaw, C.; Hearin, A.; Behroozi, P.; __Lange, J.U.__ ; Greene, J.; DeRose, J.; Speagle, J.S.; Xhakaj, E., 2022, "The Outer Stellar Mass of Massive Galaxies: A Simple Tracer of Halo Mass with Scatter Comparable to Richness and Reduced Projection Effects", MNRAS
 * Ruggeri, R. et al., including __Lange, J.U.__., 2022, "A data compression and optimal galaxy weights scheme for Dark Energy Spectroscopic Instrument and weak lensing datasets", submitted to MNRAS
 * Xhakaj, E.; Leauthaud, A.; __Lange, J.U.__; Hearin, A.; Diemer, B.; Dalal, N., 2022, "Beyond Mass: Detecting Secondary Halo Properties with Galaxy-Galaxy Lensing", MNRAS
