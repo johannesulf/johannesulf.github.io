@@ -15,6 +15,9 @@ title                    : "Johannes U. Lange"
 title_separator          : "-"
 name                     : "Johannes Lange"
 
+# Social Sharing
+twitter:
+  username               : "julange_astro"
 
 # Site Author
 author:
