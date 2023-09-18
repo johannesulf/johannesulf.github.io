@@ -12,6 +12,10 @@ header:
 toc: true
 ---
 
+# Courses at the University of Michigan
+
+* Astronomy 127, Naked-Eye Astronomy, Lecturer, Fall 2023
+
 # Courses at Yale University
 
 * Astronomy 356, Astrostatistics and Data Mining, Lab Leader, Spring 2018

@@ -20,9 +20,16 @@ More generally, I have a broad interest in many areas of astrophysical research.
 
 # Publications
 
-* __Lange, J.U.__  et al., 2023, "Constraints on S<sub>8</sub> from a full-scale and full-shape analysis of redshift-space clustering and galaxy-galaxy lensing in BOSS", submitted to MNRAS
+* B. Hadzhiyska et al., including __Lange, J.U.__., 2023, "Synthetic light-cone catalogues of modern redshift and weak lensing
+surveys with ABACUSSUMMIT", MNRAS
+* Ruggeri, R. et al., including __Lange, J.U.__., 2023, "A data compression and optimal galaxy weights scheme for Dark Energy Spectroscopic Instrument and weak lensing datasets", MNRAS
+* __Lange, J.U.__, 2023, "NAUTILUS: boosting Bayesian importance nested sampling with deep learning", MNRAS
+* DESI Collaboration et al., including __Lange, J.U.__., 2023, "The Early Data Release of the Dark Energy Spectroscopic Instrument", submitted to AJ
+* DESI Collaboration et al., including __Lange, J.U.__., 2023, "Validation of the Scientific Program for the Dark Energy Spectroscopic Instrument", submitted to AJ
+* E. Xhakaj et al., including __Lange, J.U.__., 2023 "Cluster Cosmology Without Cluster Finding", submitted to MNRAS
+* J. S. M. Karp, __Lange, J.U.__, and R. H. Wechsler, 2023, "Anisotropic Satellite Galaxy Quenching: A Unique Signature of Energetic Feedback by Supermassive Black Holes?", ApJL
+* __Lange, J.U.__  et al., 2023, "Constraints on S<sub>8</sub> from a full-scale and full-shape analysis of redshift-space clustering and galaxy-galaxy lensing in BOSS", MNRAS
 * Huang, S.; Leauthaud, A.; Bradshaw, C.; Hearin, A.; Behroozi, P.; __Lange, J.U.__ ; Greene, J.; DeRose, J.; Speagle, J.S.; Xhakaj, E., 2022, "The Outer Stellar Mass of Massive Galaxies: A Simple Tracer of Halo Mass with Scatter Comparable to Richness and Reduced Projection Effects", MNRAS
-* Ruggeri, R. et al., including __Lange, J.U.__., 2022, "A data compression and optimal galaxy weights scheme for Dark Energy Spectroscopic Instrument and weak lensing datasets", submitted to MNRAS
 * Xhakaj, E.; Leauthaud, A.; __Lange, J.U.__; Hearin, A.; Diemer, B.; Dalal, N., 2022, "Beyond Mass: Detecting Secondary Halo Properties with Galaxy-Galaxy Lensing", MNRAS
 * Abareshi, B. et al., including __Lange, J.U.__., 2022, "Overview of the Instrumentation for the Dark Energy Spectroscopic Instrument", submitted to AJ
 * Wang, K.; Mao, Y.-Y.; Zentner, A. R.; Guo, H.; __Lange, J.U.__; van den Bosch, F.C.; Mezini, L., 2022 ,"Evidence of Galaxy Assembly Bias in SDSS DR7 Galaxy Samples from Count Statistics", MNRAS
