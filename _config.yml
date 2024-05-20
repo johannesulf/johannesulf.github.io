@@ -19,7 +19,7 @@ name                     : "Johannes Lange"
 author:
   name             : "Johannes U. Lange"
   avatar           : "_images/avatar.png"
-  bio              : "I'm an Astronomer working on Galaxies, Gravity and Cosmology."
+  bio              : "I'm an Astrophysicist working on Galaxies, Gravity and Cosmology."
   location         : "3429 Randall Lab</br>450 Church Street</br>University of Michigan</br>Ann Arbor, MI 48109"
   email            : "julange.astro@proton.me"
   links:
@@ -32,9 +32,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/johannesulf"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/julange_astro"
 
 
 # Reading Files
