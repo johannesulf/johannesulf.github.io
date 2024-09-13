@@ -7,9 +7,8 @@ toc: true
 toc_label: Content
 toc_sticky: true
 header:
-  overlay_image: /_images/Density_slice_L0063_Z_0.5_t_0.08_4000_ocean.png
+  overlay_image: /_images/blue_sim.jpg
   caption: "Image Credit: Mansfield & Diemer"
-  overlay_filter: 0.3
 ---
 
 # Research Interest

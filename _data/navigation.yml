@@ -4,6 +4,8 @@ main:
     url: /download/cv.pdf
   - title: "Research"
     url: /research/
+  - title: "Group"
+    url: /group/
   - title: "Data"
     url: /data/
   - title: "Code"

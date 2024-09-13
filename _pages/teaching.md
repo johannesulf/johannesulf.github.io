@@ -7,14 +7,16 @@ toc: true
 toc_label: Content
 toc_sticky: true
 header:
-  overlay_image: /_images/Yale_2.jpg
-  overlay_filter: 0.5
-toc: true
+  overlay_image: /_images/yale_2.jpg
 ---
+
+# Courses at American University
+
+* Physics 331, Modern Physics, Instructor, Fall 2024
 
 # Courses at the University of Michigan
 
-* Astronomy 127, Naked-Eye Astronomy, Lecturer, Fall 2023
+* Astronomy 127, Naked-Eye Astronomy, Instructor, Fall 2023
 
 # Courses at Yale University
 
