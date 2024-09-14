@@ -10,6 +10,8 @@ header:
   overlay_image: /images/code.jpg
 ---
 
+Coding has become an integral part of astrophysical research. Every research project I work on involves programming in Python. I'm a big proponent of open science and open-source software. Developing and contributing to software allows me to make the results of my work benefit the wider community. Below is a selection of software projects I contribute to.
+
 ## nautilus
 
 I developed a new Bayesian inference sampler called Nautilus. It allows the user to estimate Bayesian posteriors and evidences, similar to existing MCMC and nested sampling codes such as emcee and dynesty. This new code is designed to be substantially more efficient than existing algorithms by utilizing neural network emulators to make efficient proposals. A publication describing the underlying algorithm and demonstrating has been published [here](https://academic.oup.com/mnras/article/525/2/3181/7243406).
