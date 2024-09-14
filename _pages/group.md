@@ -18,7 +18,7 @@ During my academic journey, I had the pleasure of mentoring a number of bright a
 
 ### Alexandra Wells
 
-<img src="{{ site.url }}{{ site.baseurl }}/_images/alex_w.png" alt="Image of Alexandra" align="right" width="200em" style="padding: 1em 1em 1em 1em">
+<img src="{{ site.url }}{{ site.baseurl }}/images/alex_w.png" alt="Image of Alexandra" align="right" width="200em" style="padding: 1em 1em 1em 1em">
 
 Alex is investigating how accurately we can determine the properties of dark energy and cosmic structure growth from measurements of the distribution of galaxies and gravitational lensing. For this work, we specifically focus on the measurements on small, so-called non-linear scales. She analyses simulated "mock" observations constructed from cosmological simulations and tests how well we can recover the input values.
 
@@ -28,7 +28,7 @@ Alex is investigating how accurately we can determine the properties of dark ene
 
 ### Gilad Pifko
 
-<img src="{{ site.url }}{{ site.baseurl }}/_images/gilad.png" alt="Image of Gilad" align="left" width="200em" style="padding: 1em 1em 1em 1em">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gilad.png" alt="Image of Gilad" align="left" width="200em" style="padding: 1em 1em 1em 1em">
 
 Gilad worked with data from the Kilo-Degree Survey, measuring the gravitational lensing effect, a prediction of Einstein's theory of general relativity. He investigated whether the amount of dark matter surrounding galaxies depends on their size. He was able to confirm theoretical predictions from earlier studies in the literature.
 
@@ -36,7 +36,7 @@ Gilad worked with data from the Kilo-Degree Survey, measuring the gravitational 
 
 ### Simon Wu
 
-<img src="{{ site.url }}{{ site.baseurl }}/_images/simon.png" alt="Image of Simon" align="right" width="200em" style="padding: 1em 1em 1em 1em">
+<img src="{{ site.url }}{{ site.baseurl }}/images/simon.png" alt="Image of Simon" align="right" width="200em" style="padding: 1em 1em 1em 1em">
 
 During our project, under the guidance of Prof. Lange, I focused on quantifying the contribution of dark matter subhalos to the gravitational lensing signal using the TNG300 hydrodynamical simulation. We explored the impact of satellite galaxies on galaxy-galaxy lensing, comparing different modeling approaches to assess subhalo contributions to the overall lensing effect. It was a great experience working on this interesting project with Prof. Lange and I really learned a lot!
 
@@ -44,7 +44,7 @@ During our project, under the guidance of Prof. Lange, I focused on quantifying 
 
 ### Garv Shah
 
-<img src="{{ site.url }}{{ site.baseurl }}/_images/garv.png" alt="Image of Garv" align="left" width="200em" style="padding: 1em 1em 1em 1em">
+<img src="{{ site.url }}{{ site.baseurl }}/images/garv.png" alt="Image of Garv" align="left" width="200em" style="padding: 1em 1em 1em 1em">
 
 Garv studied the use of different neural network architectures for problems in Bayesian inference. Specifically, he investigated the performance of the [nautilus](https://github.com/johannesulf/nautilus) code when using advanced networks he built with TensorFlow library. Ultimately, his results informed many design decisions for the widely-used nautilus code.
 
@@ -52,6 +52,6 @@ Garv studied the use of different neural network architectures for problems in B
 
 ### Juliana Karp
 
-<img src="{{ site.url }}{{ site.baseurl }}/_images/juliana.png" alt="Image of Juliana" align="right" width="200em" style="padding: 1em 1em 1em 1em">
+<img src="{{ site.url }}{{ site.baseurl }}/images/juliana.png" alt="Image of Juliana" align="right" width="200em" style="padding: 1em 1em 1em 1em">
 
 I investigated the causes of anisotropic satellite galaxy quenching (ASGQ) in two state-of-the-art cosmological simulations of galaxy formation, UniverseMachine and IllustrisTNG. [I showed](https://ui.adsabs.harvard.edu/abs/2023ApJ...949L..13K/abstract) that ASGQ is probably not caused by outflows from the central galaxy's supermassive black hole, but rather likely a natural consequence of hierarchical structure formation.
