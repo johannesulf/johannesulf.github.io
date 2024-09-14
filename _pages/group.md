@@ -14,6 +14,16 @@ header:
 
 During my academic journey, I had the pleasure of mentoring a number of bright and curious undergraduate students on research projects. I'm always looking for new students working on projects in cosmology, galaxy formation, and machine learning. If you're a student at American University and interested in research, don't hesitate to reach out to me.
 
+## Current Students
+
+### Alexandra Wells
+
+<img src="{{ site.url }}{{ site.baseurl }}/_images/alex_w.png" alt="Image of Alexandra" align="right" width="200em" style="padding: 1em 1em 1em 1em">
+
+Alex is investigating how accurately we can determine the properties of dark energy and cosmic structure growth from measurements of the distribution of galaxies and gravitational lensing. For this work, we specifically focus on the measurements on small, so-called non-linear scales. She analyses simulated "mock" observations constructed from cosmological simulations and tests how well we can recover the input values.
+
+<br>
+
 ## Former Students
 
 ### Gilad Pifko
