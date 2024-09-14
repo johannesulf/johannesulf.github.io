@@ -7,7 +7,7 @@ toc: true
 toc_label: Content
 toc_sticky: true
 header:
-  overlay_image: /_images/blue_sim.jpg
+  overlay_image: /images/blue_sim.jpg
   caption: "Image Credit: Mansfield & Diemer"
 ---
 

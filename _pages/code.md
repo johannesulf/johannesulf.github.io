@@ -7,7 +7,7 @@ toc: true
 toc_label: Content
 toc_sticky: true
 header:
-  overlay_image: /_images/code.jpg
+  overlay_image: /images/code.jpg
 ---
 
 ## nautilus

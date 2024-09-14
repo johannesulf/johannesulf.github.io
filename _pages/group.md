@@ -7,7 +7,7 @@ toc: True
 toc_label: Content
 toc_sticky: true
 header:
-  overlay_image: /_images/yale_1.jpg
+  overlay_image: /images/yale_1.jpg
 ---
 
 # Group

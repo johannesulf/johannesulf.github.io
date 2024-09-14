@@ -7,7 +7,7 @@ toc: True
 toc_label: Content
 toc_sticky: true
 header:
-  overlay_image: /_images/open_labs.jpg
+  overlay_image: /images/open_labs.jpg
 ---
 
 I believe it is vital to make research accessible to the general public. I love conveying my passion for dark matter, dark energy, cosmology, and astronomy in general to a broader audience. I have given talks at local primary schools, Yale Open Labs science cafes, the New Haven Institute for Learning in Retirement, Astronomy on Tab events, the Yale Leitner Family Observatory, Stanford Splash, and KIPAC public lectures, among others.

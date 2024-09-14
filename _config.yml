@@ -38,7 +38,7 @@ author:
 include:
   - .htaccess
   - _pages
-  - _images
+  - images
   - download
 exclude:
   - "*.sublime-project"

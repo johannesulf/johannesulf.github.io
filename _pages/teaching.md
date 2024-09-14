@@ -7,7 +7,7 @@ toc: true
 toc_label: Content
 toc_sticky: true
 header:
-  overlay_image: /_images/yale_2.jpg
+  overlay_image: /images/yale_2.jpg
 ---
 
 # Courses at American University

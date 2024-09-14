@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 title: "Welcome to my Homepage!"
 header:
-  overlay_image: /_images/jwst.jpg
+  overlay_image: /images/jwst.jpg
   caption: "Image Credit: NASA, ESA, CSA, and STScI"
 ---
 
