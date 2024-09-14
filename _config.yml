@@ -37,7 +37,7 @@ author:
 # Reading Files
 include:
   - .htaccess
-  - _pages
+  - pages
   - images
   - download
 exclude:
