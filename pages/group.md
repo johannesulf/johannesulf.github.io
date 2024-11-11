@@ -26,6 +26,18 @@ Alex is investigating how accurately we can determine the properties of dark ene
 
 ## Former Students
 
+### Alexandra Doytcheva
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/alex_d.png" alt="Image of Alexandra" align="left" width="200em" style="padding: 1em 1em 1em 1em">
+
+Alex joined the group as a first-year student. Initially, we investigated the relation between supermassive black holes and galaxies in the IllustrisTNG simulation. Later, we explored the use of control variates to increase the statistical precision of galaxy clustering predictions from hydrodynamical simulations. This work resulted in a [paper](https://arxiv.org/abs/2410.14546) with Alex and Filomela as the first two authors.
+
+### Filomela Gerou
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/filomela.png" alt="Image of Filomela" align="right" width="200em" style="padding: 1em 1em 1em 1em">
+
+Filomela explored the relationship between galaxies and dark matter halos using neural networks. We investigated to what extend different halo properties can explain the galaxy assembly bias effect. Filomela also contributed to the project exploring the use of control variates to increase the predictive power of hydrodynamical simulations of galaxy formation.
+
 ### Gilad Pifko
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/gilad.png" alt="Image of Gilad" align="left" width="200em" style="padding: 1em 1em 1em 1em">
