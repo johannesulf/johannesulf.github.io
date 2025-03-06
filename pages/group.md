@@ -16,6 +16,14 @@ During my academic journey, I had the pleasure of mentoring a number of bright a
 
 ## Current Students
 
+### Alisun Coldiron
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/ali.png" alt="Image of Alisun" align="left" width="200em" style="padding: 1em 1em 1em 1em">
+
+Ali is an undergraduate at American University investigating computer simulations of galaxy formation. Specifically, Ali is analyzing data from the [FLAMINGO](https://skyandtelescope.org/astronomy-news/largest-ever-computer-simulation-of-the-universe/) simulation, one of the largest, most accurate computer simulations of the Universe ever carried out. Using machine learning, she studies the relationship between clumps of dark matter, so-called dark matter halos, and the galaxies that form within them.
+
+<br>
+
 ### Alexandra Wells
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/alex_w.png" alt="Image of Alexandra" align="right" width="200em" style="padding: 1em 1em 1em 1em">
