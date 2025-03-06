@@ -7,7 +7,7 @@ toc: true
 toc_label: Content
 toc_sticky: true
 header:
-  overlay_image: /images/corner.png
+  overlay_image: /images/som.png
 ---
 
 Here, I make data from publications publicly available. If you are interested in my research data and cannot find it here, please reach out to me. I will happily share code and data from published articles.
