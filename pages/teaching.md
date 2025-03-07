@@ -12,8 +12,8 @@ header:
 
 # Courses at American University
 
-* Physics 331, Modern Physics, Instructor, Fall 2024
 * Physics 230, Changing Views of the Universe, Instructor, Spring 2025
+* Physics 331, Modern Physics, Instructor, Fall 2024
 
 # Courses at the University of Michigan
 
