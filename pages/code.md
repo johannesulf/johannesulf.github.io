@@ -7,7 +7,7 @@ toc: true
 toc_label: Content
 toc_sticky: true
 header:
-  overlay_image: /images/code.jpg
+  overlay_image: /images/code.png
 ---
 
 Coding has become an integral part of astrophysical research. Every research project I work on involves programming in Python. I'm a big proponent of open science and open-source software. Developing and contributing to software allows me to make the results of my work benefit the wider community. Below is a selection of software projects I contribute to.
