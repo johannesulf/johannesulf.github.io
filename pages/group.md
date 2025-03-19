@@ -16,9 +16,17 @@ During my academic journey, I had the pleasure of mentoring a number of bright a
 
 ### Alisun Coldiron
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/ali.png" alt="Image of Alisun" align="left" width="200em" style="padding: 1em 1em 1em 1em">
+<img src="{{ site.url }}{{ site.baseurl }}/images/ali.png" alt="Image of Alisun" align="right" width="200em" style="padding: 1em 1em 1em 1em">
 
 Ali is an undergraduate at American University investigating computer simulations of galaxy formation. Specifically, Ali is analyzing data from the [FLAMINGO](https://skyandtelescope.org/astronomy-news/largest-ever-computer-simulation-of-the-universe/) simulation, one of the largest, most accurate computer simulations of the Universe ever carried out. Using machine learning, she studies the relationship between clumps of dark matter, so-called dark matter halos, and the galaxies that form within them.
+
+<br>
+
+### Abigal Fisher
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/abby.png" alt="Image of Abigail" align="left" width="200em" style="padding: 1em 1em 1em 1em">
+
+Abby is an undergraduate physics student at American University researching weak gravitational lensing and photometric redshifts. Abby uses data taken with the Dark Energy Spectroscopic Instrument (DESI) to calibrate photometric redshifts in weak gravitational lensing surveys such as DES, HSC, and KiDS. In her research, she uses advanced computational methods and artificial neural networks.
 
 <br>
 
