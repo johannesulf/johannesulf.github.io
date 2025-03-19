@@ -22,7 +22,7 @@ Ali is an undergraduate at American University investigating computer simulation
 
 <br>
 
-### Abigal Fisher
+### Abigail Fisher
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/abby.png" alt="Image of Abigail" align="left" width="200em" style="padding: 1em 1em 1em 1em">
 
