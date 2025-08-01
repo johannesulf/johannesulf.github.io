@@ -12,6 +12,7 @@ header:
 
 # Courses at American University
 
+* Physics 396, Data Mining and Machine Learning for Natural Sciences, Instructor, Fall 2025
 * Physics 230, Changing Views of the Universe, Instructor, Spring 2025
 * Physics 331, Modern Physics, Instructor, Fall 2024
 

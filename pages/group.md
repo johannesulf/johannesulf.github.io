@@ -30,6 +30,8 @@ Abby is an undergraduate physics student at American University researching weak
 
 <br>
 
+## Former Students
+
 ### Alexandra Wells
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/alex_w.png" alt="Image of Alexandra" align="right" width="200em" style="padding: 1em 1em 1em 1em">
@@ -37,8 +39,6 @@ Abby is an undergraduate physics student at American University researching weak
 Alex is investigating how accurately we can determine the properties of dark energy and cosmic structure growth from measurements of the distribution of galaxies and gravitational lensing. For this work, we specifically focus on the measurements on small, so-called non-linear scales. She analyses simulated "mock" observations constructed from cosmological simulations and tests how well we can recover the input values.
 
 <br>
-
-## Former Students
 
 ### Alexandra Doytcheva
 
