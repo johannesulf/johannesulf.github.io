@@ -14,6 +14,14 @@ During my academic journey, I had the pleasure of mentoring a number of bright a
 
 ## Current Students
 
+### Henry Gray
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/henry.png" alt="Image of Henry" align="left" width="200em" style="padding: 1em 1em 1em 1em">
+
+Henry joined as a junior while at American University. He is working with data from the [FLAMINGO](https://skyandtelescope.org/astronomy-news/largest-ever-computer-simulation-of-the-universe/) simulation, one of the largest, most accurate computer simulations of the Universe ever carried out. He is using machine learning to study the properties of roughly a million galaxies in FLAMINGO. Specifically, he studies what properties of galaxies are most strongly related to an effect called halo assembly bias.
+
+<br>
+
 ### Alisun Coldiron
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/ali.png" alt="Image of Alisun" align="right" width="200em" style="padding: 1em 1em 1em 1em">
