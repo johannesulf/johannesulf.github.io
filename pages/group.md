@@ -10,23 +10,11 @@ header:
   overlay_image: /images/yale_1.jpg
 ---
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/group.jpg" alt="Group Photo" style="max-width:100%; height:auto; border-radius:10%; display:inline-block;">
+
 During my academic journey, I had the pleasure of mentoring a number of bright and curious undergraduate students on research projects. I'm always looking for new students working on projects in cosmology, galaxy formation, and machine learning. If you're a student at American University and interested in research, don't hesitate to reach out to me.
 
 ## Current Students
-
-### Simona Sotiri
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/simona.png" alt="Image of Simona" align="right" width="200em" style="padding: 1em 1em 1em 1em">
-
-Simona, a senior at American University, is investigating to what extent measurements of gravitational lensing on small scales can be used to infer cosmology. To this end, she applies a Bayesian analysis of Halo Occupation Distribution (HOD) to simulated data from the [FLAMINGO](https://skyandtelescope.org/astronomy-news/largest-ever-computer-simulation-of-the-universe/) simulation. Her project builds open earlier work by Ali, Alex D., and Filomela, as described below.
-
-### Henry Gray
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/henry.png" alt="Image of Henry" align="left" width="200em" style="padding: 1em 1em 1em 1em">
-
-Henry joined as a junior while at American University. He is working with data from the [FLAMINGO](https://skyandtelescope.org/astronomy-news/largest-ever-computer-simulation-of-the-universe/) simulation, one of the largest, most accurate computer simulations of the Universe ever carried out. He is using machine learning to study the properties of roughly a million galaxies in FLAMINGO. Specifically, he studies what properties of galaxies are most strongly related to an effect called halo assembly bias.
-
-<br>
 
 ### Abigail Fisher
 
@@ -36,7 +24,21 @@ Abby is an undergraduate physics student at American University researching weak
 
 <br>
 
+### Simona Sotiri
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/simona.png" alt="Image of Simona" align="left" width="200em" style="padding: 1em 1em 1em 1em">
+
+Simona, a senior at American University, is investigating to what extent measurements of gravitational lensing on small scales can be used to infer cosmology. To this end, she applies a Bayesian analysis of Halo Occupation Distribution (HOD) to simulated data from the [FLAMINGO](https://skyandtelescope.org/astronomy-news/largest-ever-computer-simulation-of-the-universe/) simulation. Her project builds open earlier work by Ali, Alex D., and Filomela, as described below.
+
 ## Former Students
+
+### Henry Gray
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/henry.png" alt="Image of Henry" align="right" width="200em" style="padding: 1em 1em 1em 1em">
+
+Henry joined as a junior while at American University. He is working with data from the [FLAMINGO](https://skyandtelescope.org/astronomy-news/largest-ever-computer-simulation-of-the-universe/) simulation, one of the largest, most accurate computer simulations of the Universe ever carried out. He is using machine learning to study the properties of roughly a million galaxies in FLAMINGO. Specifically, he studies what properties of galaxies are most strongly related to an effect called halo assembly bias.
+
+<br>
 
 ### Alisun Coldiron
 

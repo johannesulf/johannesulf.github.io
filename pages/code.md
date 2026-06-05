@@ -20,7 +20,7 @@ I developed a new Bayesian inference sampler called Nautilus. It allows the user
 
 ## dsigma
 
-Together with Song Huang, I have developed an easy-to-use galaxy-galaxy lensing pipeline. This pipeline has been built to be computationally efficient and also universally applicable. For example, it can be used with shape catalogs from SDSS, KiDS, HSC and CFHTLenS. The documentation includes many examples of how to use dsigma to obtain galaxy-galaxy lensing measurements from publicly available shape catalogs.
+Together with Song Huang, I have developed an easy-to-use galaxy-galaxy lensing pipeline. This pipeline has been built to be computationally efficient and also universally applicable. For example, it can be used with shape catalogs from DECADE DES, HSC, and KiDS. The documentation includes many examples of how to use dsigma to obtain galaxy-galaxy lensing measurements from publicly available shape catalogs.
 
 [<i class="fab fa-fw fa-python"></i> PyPI](https://pypi.org/project/dsigma/){: .btn .btn--primary } [<i class="fab fa-fw fa-github"></i> GitHub](https://github.com/johannesulf/dsigma){: .btn .btn--primary } [<i class="fas fa-book"></i> Docs](https://dsigma.readthedocs.io/en/latest/){: .btn .btn--primary }
 
