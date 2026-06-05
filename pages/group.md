@@ -10,7 +10,7 @@ header:
   overlay_image: /images/yale_1.jpg
 ---
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/group.jpg" alt="Group Photo" style="max-width:100%; height:auto; border-radius:10%; display:inline-block;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/group.jpg" alt="Group Photo" style="max-width:100%">
 
 During my academic journey, I had the pleasure of mentoring a number of bright and curious undergraduate students on research projects. I'm always looking for new students working on projects in cosmology, galaxy formation, and machine learning. If you're a student at American University and interested in research, don't hesitate to reach out to me.
 
