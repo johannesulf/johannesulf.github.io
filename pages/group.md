@@ -20,7 +20,7 @@ During my academic journey, I had the pleasure of mentoring a number of bright a
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/kimiko.png" alt="Image of Kimiko" align="left" width="200em" style="padding: 1em 1em 1em 1em">
 
-I joined as a rising junior while at American University. For our project, we focused on understanding why observed gravitational lensing is weaker than predictions ("lensing is low"). I worked with galaxies from the Dark Energy Camera All Data Everywhere project (DECADE) and the Baryon Oscillation Spectroscopic Survey (BOSS) surveys. I measured the galaxy-galaxy lensing amplitude, i.e. excess surface density, plotted my findings, and interpreted the results. I learned a lot about coding and it was an amazing experience working with Prof. Lange!
+I joined as a rising junior while at American University. For our project, we focus on understanding why the observed gravitational lensing is weaker than predictions ("lensing is low"). I work with galaxies from the Dark Energy Camera All Data Everywhere project (DECADE) and the Baryon Oscillation Spectroscopic Survey (BOSS) surveys. I measure the galaxy-galaxy lensing amplitude, i.e. excess surface density, plot my findings, and interpret the results. I learned a lot about coding and it was an amazing experience working with Prof. Lange!
 
 <br>
 
