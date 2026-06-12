@@ -44,7 +44,7 @@ Simona, a senior at American University, is investigating to what extent measure
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/henry.png" alt="Image of Henry" align="right" width="200em" style="padding: 1em 1em 1em 1em">
 
-Henry joined as a junior while at American University. He is working with data from the [FLAMINGO](https://skyandtelescope.org/astronomy-news/largest-ever-computer-simulation-of-the-universe/) simulation, one of the largest, most accurate computer simulations of the Universe ever carried out. He is using machine learning to study the properties of roughly a million galaxies in FLAMINGO. Specifically, he studies what properties of galaxies are most strongly related to an effect called halo assembly bias.
+Henry joined as a junior while at American University. He was working with data from the [FLAMINGO](https://skyandtelescope.org/astronomy-news/largest-ever-computer-simulation-of-the-universe/) simulation, one of the largest, most accurate computer simulations of the Universe ever carried out. He used machine learning to study the properties of roughly a million galaxies in FLAMINGO. Specifically, he studied what properties of galaxies are most strongly related to an effect called halo assembly bias.
 
 <br>
 
@@ -52,7 +52,7 @@ Henry joined as a junior while at American University. He is working with data f
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/ali.png" alt="Image of Alisun" align="left" width="200em" style="padding: 1em 1em 1em 1em">
 
-Ali is an undergraduate at American University investigating computer simulations of galaxy formation. Specifically, Ali is analyzing data from the [FLAMINGO](https://skyandtelescope.org/astronomy-news/largest-ever-computer-simulation-of-the-universe/) simulation, one of the largest, most accurate computer simulations of the Universe ever carried out. Using machine learning, she studies the relationship between clumps of dark matter, so-called dark matter halos, and the galaxies that form within them.
+Ali joined as an undergraduate at American University investigating computer simulations of galaxy formation. Specifically, Ali analyzed data from the [FLAMINGO](https://skyandtelescope.org/astronomy-news/largest-ever-computer-simulation-of-the-universe/) simulation, a very large computer simulations of the Universe. Using machine learning, she studied the relationship between clumps of dark matter, so-called dark matter halos, and the galaxies that form within them.
 
 <br>
 
@@ -60,7 +60,7 @@ Ali is an undergraduate at American University investigating computer simulation
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/alex_w.png" alt="Image of Alexandra" align="right" width="200em" style="padding: 1em 1em 1em 1em">
 
-Alex is investigating how accurately we can determine the properties of dark energy and cosmic structure growth from measurements of the distribution of galaxies and gravitational lensing. For this work, we specifically focus on the measurements on small, so-called non-linear scales. She analyses simulated "mock" observations constructed from cosmological simulations and tests how well we can recover the input values.
+Alex was investigating how accurately we can determine the properties of dark energy and cosmic structure growth from measurements of the distribution of galaxies and gravitational lensing. For this work, we specifically focused on the measurements on small, so-called non-linear scales. She analyzed simulated "mock" observations constructed from cosmological simulations and tested how well we can recover the input values.
 
 <br>
 
@@ -68,7 +68,7 @@ Alex is investigating how accurately we can determine the properties of dark ene
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/alex_d.png" alt="Image of Alexandra" align="left" width="200em" style="padding: 1em 1em 1em 1em">
 
-Alex joined the group as a first-year student. Initially, we investigated the relation between supermassive black holes and galaxies in the IllustrisTNG simulation. Later, we explored the use of control variates to increase the statistical precision of galaxy clustering predictions from hydrodynamical simulations. This work resulted in a [paper](https://arxiv.org/abs/2410.14546) with Alex and Filomela as the first two authors.
+Alex joined the group as a first-year student. Initially, we investigated the relation between supermassive black holes and galaxies in the IllustrisTNG simulation. Later, we explored the use of control variates to increase the statistical precision of galaxy clustering predictions from hydrodynamical simulations. This work resulted in a [paper](https://arxiv.org/abs/2410.14546) with Alex and Filomela as the two lead authors.
 
 ### Filomela Gerou
 
@@ -96,7 +96,7 @@ During our project, under the guidance of Prof. Lange, I focused on quantifying 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/garv.png" alt="Image of Garv" align="left" width="200em" style="padding: 1em 1em 1em 1em">
 
-Garv studied the use of different neural network architectures for problems in Bayesian inference. Specifically, he investigated the performance of the [nautilus](https://github.com/johannesulf/nautilus) code when using advanced networks he built with TensorFlow library. Ultimately, his results informed many design decisions for the widely-used nautilus code.
+Garv studied the use of different neural network architectures for problems in Bayesian inference. Specifically, he investigated the performance of the [nautilus](https://github.com/johannesulf/nautilus) code when using advanced networks he built with TensorFlow library. Ultimately, his results informed some design decisions for the widely-used nautilus code.
 
 <br>
 
