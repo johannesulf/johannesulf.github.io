@@ -4,8 +4,6 @@ all:
 	biber cv
 	pdflatex cv
 	pdflatex cv
-
-clean:
 	rm -f *.log
 	rm -f *.bbl
 	rm -f *.bcf
@@ -13,6 +11,8 @@ clean:
 	rm -f *.aux
 	rm -f *.xml
 	rm -f *.out
+
+clean:
 	rm -f *.pdf
 	rm bibliography.bib
 
