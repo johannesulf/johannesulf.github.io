@@ -30,4 +30,4 @@ More generally, I have a broad interest in many areas of astrophysical research.
 * __Lange, J.U.__ et al., 2016, "Evidence for Non-stellar Rest-frame Near-IR Emission Associated with Increased Star Formation in Galaxies at z ∼ 1", ApJL
 * __Lange, J.U.__; Chu, M.-C., 2014, "Can galactic dark matter substructure contribute to the cosmic gamma-ray anisotropy?", MNRAS
 
-You can find a full list of my publications on  [ORDiD](http://orcid.org/0000-0002-2450-1366) and [ADS](https://ui.adsabs.harvard.edu/#/public-libraries/NYc37mmySA2HdUg5pOzlrA).
+You can find a full list of my publications on  [ORDiD](http://orcid.org/0000-0002-2450-1366) and [SciX](https://scixplorer.org/public-libraries/NYc37mmySA2HdUg5pOzlrA).
