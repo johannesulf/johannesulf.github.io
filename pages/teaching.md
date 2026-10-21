@@ -12,6 +12,8 @@ header:
 
 # Courses at American University
 
+* AU Core 105, Reality after Einstein, Instructor, Fall 2026
+* Physics 110, Principles of Physics I, Lab Instructor, Fall 2026
 * Physics 230, Changing Views of the Universe, Instructor, Spring 2026
 * Physics 396, Data Mining and Machine Learning for Natural Sciences, Instructor, Fall 2025
 * Physics 230, Changing Views of the Universe, Instructor, Spring 2025
