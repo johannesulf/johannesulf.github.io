@@ -16,6 +16,14 @@ During my academic journey, I had the pleasure of mentoring a number of bright a
 
 ## Current Students
 
+### Elena Perez Alejandro
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/elena.png" alt="Image of Elena" align="right" width="200em" style="padding: 1em 1em 1em 1em">
+
+Elena is a senior at Georgetown University who joined the group through the Georgetown–American University consortium as part of her physics capstone. For her project she is researching the galaxy–halo connection: how galaxies relate to the dark matter halos they live in. Elena works with data from the FLAMINGO simulation and uses data analysis tools and machine learning to explore how the properties depend on the characteristics of their host halos. The goal of her research is to improve our understanding of how galaxy assembly bias emerges and to inform and support future studies with real observational data.
+
+## Former Students
+
 ### Kimiko Queen
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/kimiko.png" alt="Image of Kimiko" align="left" width="200em" style="padding: 1em 1em 1em 1em">
@@ -37,8 +45,6 @@ Abby is an undergraduate physics student at American University researching weak
 <img src="{{ site.url }}{{ site.baseurl }}/images/simona.png" alt="Image of Simona" align="left" width="200em" style="padding: 1em 1em 1em 1em">
 
 Simona, a senior at American University, is investigating to what extent measurements of gravitational lensing on small scales can be used to infer cosmology. To this end, she applies a Bayesian analysis of Halo Occupation Distribution (HOD) to simulated data from the [FLAMINGO](https://skyandtelescope.org/astronomy-news/largest-ever-computer-simulation-of-the-universe/) simulation. Her project builds open earlier work by Ali, Alex D., and Filomela, as described below.
-
-## Former Students
 
 ### Henry Gray
 
